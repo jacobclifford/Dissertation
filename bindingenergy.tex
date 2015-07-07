@@ -1,0 +1,95 @@
+
+\section*{Thermodyanmics}
+Our interest is not in isolated physical systems, as the M particle system above, rather we are interested in closed and open systems.  The Victorian founders of the field of open and closed systems, of thermodynamics, were contemporaries with Charles Darwin, which is very fitting seeing that their insights into heat and particle exchange (a form of work) supplies the essential mechanics to describe biological systems.
+
+Conservation of energy for isolated systems is a consequence of Newton's second law. A more interesting statement is that the internal energy of a closed system can not spontaneously change, this is the statement of the first law of thermodynamics.  Hence we must do work or heat the system to change its internal energy. 
+
+\begin{eqnarray}
+% \nonumber to remove numbering (before each equation)
+  dU &=& dq + dw \label{eq:xdef} \\  \nonumber
+  dU &=& TdS + PdV
+\end{eqnarray}
+ Here U is the internal energy (not the potential energy), the internal energy of the system is the Hamiltonian, H, hence H=U.  In \eqref{eq:xdef} dq is the heat (dq has nothing to do with q the partition function), and dw is the work (the work also accounts for particle exchange processes).    
+      
+ The system above only has one type of particle, for systems that allow transcription factor to bind to DNA segments it is necessary to introduce multiple particle species (the protein and DNA).  By Gibbs phase rule, we know that for a binary system we will need four independent variables, one of which is intensive.  Hence we have many options available for constructing binary particle ensembles.  For the species that can vary particle number the natural variable is the chemical potential, while for systems that are closed the natural variable is just the particle number.  Hence, for a binary system, composed of M components of S' (sequences) and N components of P' (protein ), we could define the open open system with the following coordinates $( \mu_{S'}, \mu_{P'},V,T)$; while the closed-closed system has the following form:
+   \begin{eqnarray}
+  dU &=& TdS + \mu_{S'} dM + \mu_{P'} dN + PdV
+\end{eqnarray}\label{closedclosed} 
+%
+%  These transformations are critical for solvent-solute -solute systems.  For example the nucleoplasm-genome-protein systems, where the 'nucleoplasm' is the biomaterial and water that surrounds the genome, and the 'genome-protein' or binding site - protein can be seen as a solute-solute interaction.  
+  
+  We will think of binding sites interacting with proteins as solute solute interactions that are occurring in a solvent.  The nucleoplasm represents a very complicated solvent, a mixture in the liquid phase of all sorts of complicated biopolymers and water molecules and the many other inorganic substances in a biological nucleus.  Of course, the protein that must find a specific binding site within the genome, must compete with all the other molecules in the nucleus for occupying any point in the spatial grid of the nucleus.  However, again, my aim is to represent and describe the recognition of a particular binding site by a protein, hence I would like to make progress specifically on the recognition problem, without being hampered by the possibility that the solvent is dominating the recognition process.  Hence, I will introduce an argument in T.Hill's text\cite{hill}, and also discussed by Landua\cite{landaumech}, the so-called 'dilute limit' that will allow us to proceed to the relevant problem of the solute-solute or protein-binding site interaction.
+ 
+  
+  \emph{Solvent Solute, dilute limit}
+  The solvent solute system is just a binary system, hence we can think of the sequences as a solvent and the protein as solute.  The main new complexity is the interaction between the solute and solvent, which would modify our Hamiltonian's potential. Here we will follow Hill's approach, which is to start off by organizing the solution with the grand canonical open open system\footnote{The grand canonical ensemble is related to the thermodynamic grand potential, by the legendre transform of Eq.\ref{closedclosed}, the transform leads to: $dU = TdS + <M> d\mu_{S'}  +<N> d\mu_{P'}  + PdV$}
+  \begin{equation}\label{}
+    \exp^{-\frac{PV}{kT} } = \Xi(\mu_S, \mu_P,V,T) = \sum_{N_1} \sum_{N_2} Q(N_1, N_2,V,T) \exp{\frac{(N_1 \mu_{1} + N_2 \mu_{2})}{kT}}
+  \end{equation}
+Here we have relabelled S as 1 and P as 2.  Now we know the average solute particle number:
+\begin{equation}\label{}
+  < N_2 > = \sum_{n_2}  n_2 P(n_2) = \lambda_{2}  \frac{\partial\log \Xi}{\partial \lambda_{2}}
+\end{equation}
+By taking the derivative with respect to the absolute activity of the solute, $\lambda_{2}=\exp{\frac{N_2\mu_{2}}{kT}}$, we can calculate the average number of solute particles.  To take this derivative, first notice that in the dilute limit of solute, the summation over the solute may as well be neglected, since the solute activity approaches zero.  If we define the pure solvent grand partition function as $\Psi_o=\sum_{N_1} Q(N_1,0,V,T)\lambda_1^{N_1}$, and the solvent grand partition function $\Psi_1==\sum_{N_1} Q(N_1,1,V,T)\lambda_1^{N_1}$ as the grand for the solvent with one solute embedded in it (note that $\Psi_1$ will posses solute solvent interaction).  Then the derivative will appear as:
+\begin{equation}\label{}
+  \lambda_{2}  \frac{\partial\log \Xi}{\partial \lambda_{2}} = \lambda_{2} \frac{\Psi_1 + 2* \Psi_2 \lambda_{2} +3*\Psi_3 \lambda_{2}^2 \dots  }{\Psi_0 + \Psi_1 \lambda_{2} +  \Psi_2 \lambda_{2}^2 +\Psi_3 \lambda_{2}^3 \dots }
+\end{equation}
+As $\lim_{\lambda_{2} \to +0}$, we find that:
+\begin{equation}\label{}
+  < N_2 > = \frac{ \Psi_1}{\Psi_0} \lambda_2
+\end{equation}
+Hence, just as we defined the effective partition function, q, the configuration integral, for an isolated system by simply dividing the true Q, by the partition function of an ideal gas, $Q_o$ (a system with potential turned off).  Here again we have the identical result for a solution system.  Hence, for a solute immersed in a solvent we will define the effective partition function for the solute as:
+\begin{equation}\label{}
+  q(N,V,T) = \frac{ \Psi_1(\mu_M,N_2=1,V,T) }{\Psi_0(\mu_M,N_2=0,V,T)}
+\end{equation}
+For solvents that interact with the solute, the interaction energy, $\Delta E$, is simply related to q:
+\begin{equation}\label{solvent}
+  q= \frac{ \Psi_1(\mu_M,N_2=1,V,T) }{\Psi_0(\mu_M,N_2=0,V,T)} \approx \frac{Q_m(N_1,1,V,T)}{Q_m(N_1,1,V,T)}\exp^{\frac{\Delta E}{kT}}
+\end{equation}
+here, $Q_m(N_1,1,V,T)$ is the canonical partition function for one solute in a box of size V of solvent particles, where the subscript m indicates we have taken the largest term of the grand canonical ensemble.  Hence, we find by taking ratios of partition functions we can isolate the solvent-solute interaction energy\footnote{The $\Delta E$ is like the mechanical work done by inserting a solute into a solvent, namely:$\Delta E =W= P \Delta V$, for example see figure 1.1 of Hill \cite{hill}.  More precisely, the grand canonical over the solvent can be approximated by using the maximum term of the ensemble (where each term is a canonical ensemble, Q).  Furthermore, noting that the Helmoholtz is the free energy of the canonical $Q=\exp{-A/kT}$, we see that $q=\exp{\Delta A +\Delta E } = \exp(\Delta G)$ }.  If this interaction energy is much much larger than the interaction or recognition energy of the protein-DNA binding we would be hampered by the solvent properties, and hence we will assume this is not the case.  However, possibly more important, is the form of the above partition function gives us a way to proceed with the recognition problem while accounting for the solvent.  Hence the possibility that the solvent would completely invalidate any formulas or equations for the binding process is not possible, as criticisms for solvent effects on the recognition process can always be accounted for \emph{after} we have analyzed the solute-solute interactions, simply by analyzing the solvent-solute interaction $\Delta E$ from Eq.\ref{solvent} relative to the interactions that we will now derive of the solute-solute (protein -DNA).
+
+% now introduce the solute-solute interaction, this thermo stuff needs to be place above or deleted... start with line 244, again delete everything else, or place it above..
+  
+
+\section*{Nucleoplasm genome ligand binding problem}
+
+The binding site is the main component of our physical system, we will let the number of binding sites be fixed in the genome (i.e. the system is closed with respect to number of binding sites).  Let M be the number of binding sites in the genome, each site being of the same energy.  Let the system be open with respect to factor binding. Hence, each particular locus (each site) is not just either bound or not bound, rather it will have an occupancy.  In equilibrium, we can define the equilibrium binding constant as a function of the concentrations of the components of the system.
+
+The change in free energy per particle, $\Delta \mu$, of the binding process is zero in equilibrium, recall each species in each phase has its own chemical potential:
+\begin{equation}\label{chemc}
+ \mu = \mu^o + \ln{c},
+ \end{equation}
+  here $\mu^o$ is the reference energy (standard state), and c is the concentration or density of the chemical specie relative to standard concentration of '1' in the units of interest, hence we also have:
+\begin{equation}
+% \nonumber to remove numbering (before each equation)
+ \mu_{SP} - \mu_S - \mu_P   = 0
+\end{equation}
+now if we group common standard states and concentrations, and rearrange:
+\begin{equation}\label{}
+  \mu_{SP}^o - \mu_S^o - \mu_P^o = \ln( \frac{ [SP]_e }{[S]_e [P]_e} )
+\end{equation}
+
+
+Here the subscript e on the concentrations is to remind us that the concentrations are no longer a variable, but fixed by the equilibrium constraint.  Our chemical potentials are linked to the molecular energies through the logarithm of the dilute limit partition function of Eq.\ref{solvent} (if the system is in equilibrium\footnote{ For example $G = \mu = kT \log Z$, where Z is the single particle isobaric, isothermal ensemble partition function.  Because most biochemical processes occur under these ensemble conditions, this is a natural biochemical choice.}), hence we also have:
+\begin{equation}\label{}
+  \mu_{SP}^o - \mu_S^o - \mu_P^o = \ln( \frac{ q_{SP} } { q_S q_P })
+\end{equation}
+
+Now we see that the binding energy emerges from the ratio of partition functions, hence, we define a new partition function as:
+\begin{equation}\label{}
+  q = \frac{ q_{SP} } { q_S } = q_{P} \exp{-\frac{E_b}{kT} }.
+\end{equation}
+
+Here, the binding energy, $E_b$ is equal to the work done to separate the bound complex protein and DNA (denoted as the SP particle). It is the solute-solute interaction.  It can also be thought of as the energy to lift an adsorbate out of the potential well of depth $E_b$ that describes the influence of the sequence on the adsorbate, or it could be thought of as the parameter $\sigma$ in the pairwise potential of a Lennard Jones (the depth of the LJ potential).  It determines the potential energy term $U(X_S,X_P)$ that we would have added to our Hamiltonian in equation \eqref{hamiltonian}.  The emergence of $E_b$ by taking the ratio of the effective partition functions is a consequence of the assumption that the molecular degrees of freedom, such as rotation and vibration are unperturbed by the binding process.  For example, for the molecule S, we have $q_S \approx q_r^S q_v^S$, similarly for the molecule P.  The complex SP contains all of these molecular states too, however the complex also contains an additional factor due to the interaction (such as an LJ potential).  Assuming the complex is stable, then we can assume we are at the minima of the pair-wise potential, which we call the binding energy\footnote{ An example of the cancellations of the partition functions: Let $q_r^S$ be the rotational partition function over the eigenvalues of the Hamiltonian for the rotational degrees of freedom, e.g. $q_r^S=\sum_i \exp( H_i^S )$, where i runs over the eigenvalues of the Hamiltonian for the S molecule, similarly for the other degrees of freedom (all the variables are assumed classical, hence we can work in a real vector space, as opposed to a complex vector space).  Then $\frac{q_{PS}}{q_P q_S}= \frac{q_r^P \prod_d q_d^P q_r^S \prod_f q_f^S \exp(-U)}{q_r^P \prod_d q_d^P q_r^S \prod_f q_f^S }$, where d and f run over all remaining 'degrees of freedom' for the molecules S and P, where the form of each degree of freedom's Hamiltonian will determine the eigenvalues and hence the partition functions (the 'momenta' and 'position' random variables of the Eq.\ref{hamiltonian} are seen as 'degrees of freedom'\cite{hobson} in this context, hence the variables of Eq.\ref{hamiltonian} can be seen as generalized coordinates in phase space, where the random variable X, for example, may represent a rotation).  Whatever the form of these Hamiltonians, all of these partition functions cancel if they are unperturbed when P and S form a complex or 'bind', and all that remains is the interaction between S and P denoted as U, which at equilibrium has a value $E_b$.  } 
+
+Linking the statistical mechanic's partition functions to the thermodynamic binding constant we have:
+
+\begin{equation}\label{k}
+ K = \exp{-\frac{E_b}{kT} }.
+\end{equation}
+   Experimentally this can be determined by binding titration curves, which allow one to transform the binding constant as a function of the fractional occupancy.  As a consistency check, we see that if the binding energy is zero (no interaction between sequence and protein, then the concentration of the bound complex is just as likely as the unbound complex, while complete binding requires the binding energy to be negative infinity, and for particles that repel such that the bound complex never forms the binding energy must be plus infinity), then we have:
+\begin{equation}\label{}
+  q_{SP} = q_S q_P.
+\end{equation}
+Hence, we find that partition functions behave almost identically as joint distributions.  The beauty of partition functions, is that we maintain the molecular link to the Hamiltonian, and a link to thermodynamics.
+%The partition function Q is the sum of the weights of each possible outcome (sample) in the sample space (the ensemble.  Each Molecular partition function simply sums over all the possible molecular states of the system.  Of particular interest to us is the binding energy, $\epsilon$, from equation \eqref{1}, which would be a factor inside the molecular partition function $q_{SP}$.

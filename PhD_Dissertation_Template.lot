@@ -1,0 +1,6 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Mutual Information between functional Dorsal binding site sequences and putative Twist sites that match 5'-CAYATG using a sliding spacer window scheme.\relax }}{49}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Contingency table with the conditional detectors DC and DU represented along the rows and the class type distal and proximal represented along the columns. Each table element represents the number of sites predicted from each detector of each class type based on Twist sites (5'-CAYATG) and a CB energy cutoff $E(S)=E_c=2.1$. \relax }}{53}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Contingency table of DC and DU detector versus the class type distal and proximal. Elements of the table are the counts from predictions of each detector for a given energy cutoff and spacer cutoff in a given set of CRMs.\relax }}{89}
+\addvspace {10\p@ }

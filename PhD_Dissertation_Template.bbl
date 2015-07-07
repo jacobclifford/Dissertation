@@ -1,0 +1,578 @@
+\begin{thebibliography}{10}
+
+\bibitem{pmid22320231}
+C.~Adami.
+\newblock {{T}he use of information theory in evolutionary biology}.
+\newblock {\em Ann. N. Y. Acad. Sci.}, 1256:49--65, May 2012.
+
+\bibitem{Adami2002}
+Christoph Adami.
+\newblock What is complexity?
+\newblock {\em {BioEssays}}, 24(12):1085--1094, 2002.
+
+\bibitem{pmid25313048}
+A.~Afek, J.~L. Schipper, J.~Horton, R.~Gordan, and D.~B. Lukatsky.
+\newblock {{P}rotein-{D}{N}{A} binding in the absence of specific base-pair
+  recognition}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 111(48):17140--17145, Dec 2014.
+
+\bibitem{pmid9169833}
+M.~I. Arnone and E.~H. Davidson.
+\newblock {{T}he hardwiring of development: organization and function of
+  genomic regulatory systems}.
+\newblock {\em Development}, 124(10):1851--1864, May 1997.
+
+\bibitem{Atkins}
+P.~Atkins and J~de~Paula.
+\newblock {\em Physical Chemistry}.
+\newblock W.H. Freeman and Company, 2002.
+
+\bibitem{pmid7584402}
+T.~L. Bailey and C.~Elkan.
+\newblock {{F}itting a mixture model by expectation maximization to discover
+  motifs in biopolymers}.
+\newblock {\em Proc Int Conf Intell Syst Mol Biol}, 2:28--36, 1994.
+
+\bibitem{pmid7584439}
+T.~L. Bailey and C.~Elkan.
+\newblock {{T}he value of prior knowledge in discovering motifs with
+  {M}{E}{M}{E}}.
+\newblock {\em Proc Int Conf Intell Syst Mol Biol}, 3:21--29, 1995.
+
+\bibitem{pmid21486752}
+A.~S. Bais, N.~Kaminski, and P.~V. Benos.
+\newblock {{F}inding subtypes of transcription factor motif pairs with distinct
+  regulatory roles}.
+\newblock {\em Nucleic Acids Res.}, 39(11):e76, Jun 2011.
+
+\bibitem{barasch}
+Y.~Barash, G.~Elidan, T.~Kaplan, and Friedman.
+\newblock Modeling dependencies in protein-{DNA} binding sites.
+\newblock In {\em Proc of the 7th Ann Int Conf in Comp Mol Bio (RECOMB)}, pages
+  28--37, 2003.
+
+\bibitem{beck}
+James Beck and Kenneth Arnold.
+\newblock {\em Parameter estimation in engineering and science}.
+\newblock Wiley and Sons, 1 edition, 1977.
+
+\bibitem{pmid2082934}
+O.~G. Berg.
+\newblock {{B}ase-pair specificity of protein-{D}{N}{A} recognition: a
+  statistical-mechanical model}.
+\newblock {\em Biomed. Biochim. Acta}, 49(8-9):963--975, 1990.
+
+\bibitem{pmid3612791}
+O.~G. Berg and P.~H. von Hippel.
+\newblock {{S}election of {D}{N}{A} binding sites by regulatory proteins.
+  {S}tatistical-mechanical theory and application to operators and promoters}.
+\newblock {\em J. Mol. Biol.}, 193:723--750, Feb 1987.
+
+\bibitem{pmid7317363}
+O.~G. Berg, R.~B. Winter, and P.~H. von Hippel.
+\newblock {{D}iffusion-driven mechanisms of protein translocation on nucleic
+  acids. 1. {M}odels and theory}.
+\newblock {\em Biochemistry}, 20(24):6929--6948, Nov 1981.
+
+\bibitem{Berg15081992}
+{Berg, O G}.
+\newblock {The evolutionary selection of DNA base pairs in gene-regulatory
+  binding sites.}
+\newblock {\em {Proceedings of the National Academy of Sciences}},
+  {89}({16}):{7501--7505}, {1992}.
+
+\bibitem{bialek}
+W.~Bialek.
+\newblock {\em Biophysics Searching for Principles}.
+\newblock Princeton University Press, 2012.
+
+\bibitem{bishop}
+Bishop.
+\newblock {\em Pattern Recognition and {Machine Learning}}, volume~1.
+\newblock Computer Science Press, Rockville, MD, 1985.
+
+\bibitem{pmid14983022}
+C.~T. Brown and C.~G. Callan.
+\newblock {{E}volutionary comparisons suggest many novel c{A}{M}{P} response
+  protein binding sites in {E}scherichia coli}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 101(8):2404--2409, Feb 2004.
+
+\bibitem{Brown2008}
+C~Titus Brown.
+\newblock Computational approaches to finding and analyzing cis-regulatory
+  elements.
+\newblock {\em Methods in cell biology}, 87:337--365, 2008.
+
+\bibitem{pmid12702751}
+N.~E. Buchler, U.~Gerland, and T.~Hwa.
+\newblock {{O}n schemes of combinatorial transcription logic}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 100:5136--5141, Apr 2003.
+
+\bibitem{pmid14762058}
+M.~L. Bulyk, A.~M. McGuire, N.~Masuda, and G.~M. Church.
+\newblock {{A} motif co-occurrence approach for genome-wide prediction of
+  transcription-factor-binding sites in {E}scherichia coli}.
+\newblock {\em Genome Res.}, 14(2):201--208, Feb 2004.
+
+\bibitem{busse}
+Matthew~S Busse, Christopher~P Arnold, Par Towb, James Katrivesis, and Steven~A
+  Wasserman.
+\newblock A sequence code for pathway-specific innate immune responses.
+\newblock {\em The EMBO Journal}, 26(16):3826--3835, 2007.
+
+\bibitem{Carothersetal2004}
+J.~M. Carothers, S.~C. Oestreich, J.~H. Davis, and J.~W. Szostak.
+\newblock Informational complexity and functional activity of {RNA} structures.
+\newblock {\em J. American Chem. Society}, 126:5130--5137, 2004.
+
+\bibitem{pmid10892643}
+S.~B. Carroll.
+\newblock {{E}ndless forms: the evolution of gene regulation and morphological
+  diversity}.
+\newblock {\em Cell}, 101(6):577--580, Jun 2000.
+
+\bibitem{pmid20981027}
+J.~Crocker, N.~Potter, and A.~Erives.
+\newblock {{D}ynamic evolution of precise regulatory encodings creates the
+  clustered site signature of enhancers}.
+\newblock {\em Nat Commun}, 1:99, 2010.
+
+\bibitem{pmid18986212}
+J.~Crocker, Y.~Tamori, and A.~Erives.
+\newblock {{E}volution acts on enhancer organization to fine-tune gradient
+  threshold readouts}.
+\newblock {\em PLoS Biol.}, 6:e263, Nov 2008.
+
+\bibitem{pmid19104053}
+E.~H. Davidson and M.~S. Levine.
+\newblock {{P}roperties of developmental gene regulatory networks}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 105(51):20063--20066, Dec 2008.
+
+\bibitem{Davidson2001}
+Eric~H. Davidson.
+\newblock {\em Genomic Regulatory Systems: Development and Evolution}.
+\newblock Academic Press, San Diego, CA, 2001.
+
+\bibitem{Davidson2006}
+Eric~H. Davidson.
+\newblock {\em The Regulatory Genome: Gene Regulatory Networks in Drvelopment
+  and Evolution}.
+\newblock Academic Press, San Diego, CA, 2006.
+
+\bibitem{Down01012005}
+Thomas~A. Down and Tim J.~P. Hubbard.
+\newblock Nestedmica: sensitive inference of over-represented motifs in nucleic
+  acid sequence.
+\newblock {\em Nucleic Acids Research}, 33(5):1445--1453, 2005.
+
+\bibitem{pmid20969803}
+Jacqueline Dresch, Xiaozhou Liu, David Arnosti, and Ahmet Ay.
+\newblock Thermodynamic modeling of transcription: sensitivity analysis
+  differentiates biological mechanism from mathematical model-induced effects.
+\newblock {\em BMC Systems Biology}, 4(1):142, 2010.
+
+\bibitem{BSA}
+R.~Durbin, S.~Eddy, A.~Krogh, and G.~Mitchison.
+\newblock {Bilogical sequence analysis}.
+\newblock {\em Cambridge Press}, 1998.
+
+\bibitem{pmid15026577}
+A.~Erives and M.~Levine.
+\newblock {{C}oordinate enhancers share common organizational features in the
+  {D}rosophila genome}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 101:3851--3856, Mar 2004.
+
+\bibitem{pmid20087339}
+W.~D. Fakhouri, A.~Ay, R.~Sayal, J.~Dresch, E.~Dayringer, and D.~N. Arnosti.
+\newblock {{D}eciphering a transcriptional regulatory code: modeling
+  short-range repression in the {D}rosophila embryo}.
+\newblock {\em Mol. Syst. Biol.}, 6:341, 2010.
+
+\bibitem{pmid9268651}
+D.~S. Fields, Y.~He, A.~Y. Al-Uzri, and G.~D. Stormo.
+\newblock {{Q}uantitative specificity of the {M}nt repressor}.
+\newblock {\em J. Mol. Biol.}, 271(2):178--194, Aug 1997.
+
+\bibitem{pmid8080080}
+D.~S. Fields and G.~D. Stormo.
+\newblock {{Q}uantitative {D}{N}{A} sequencing to determine the relative
+  protein-{D}{N}{A} binding constants to multiple {D}{N}{A} sequences}.
+\newblock {\em Anal. Biochem.}, 219(2):230--239, Jun 1994.
+
+\bibitem{Gallo21102010}
+Steven~M. Gallo, Dave~T. Gerrard, David Miner, Michael Simich, Benjamin
+  Des~Soye, Casey~M. Bergman, and Marc~S. Halfon.
+\newblock Redfly v3.0: toward a comprehensive database of transcriptional
+  regulatory elements in drosophila.
+\newblock {\em Nucleic Acids Research}, 2010.
+
+\bibitem{pmid9021275}
+N.~Galtier, M.~Gouy, and C.~Gautier.
+\newblock {{S}{E}{A}{V}{I}{E}{W} and {P}{H}{Y}{L}{O} {W}{I}{N}: two graphic
+  tools for sequence alignment and molecular phylogeny}.
+\newblock {\em Comput. Appl. Biosci.}, 12(6):543--548, Dec 1996.
+
+\bibitem{Gehring1998}
+Walter~J. Gehring.
+\newblock {\em Master Control Genes in Development and Evolution: The Homeobox
+  Story}.
+\newblock Yale University Press, New Haven, CT, 1998.
+
+\bibitem{pmid16873468}
+B.~Georgi and A.~Schliep.
+\newblock {{C}ontext-specific independence mixture modeling for positional
+  weight matrices}.
+\newblock {\em Bioinformatics}, 22(14):e166--173, Jul 2006.
+
+\bibitem{pmid17632062}
+T.~Gregor, D.~W. Tank, E.~F. Wieschaus, and W.~Bialek.
+\newblock {{P}robing the limits to positional information}.
+\newblock {\em Cell}, 130:153--164, Jul 2007.
+
+\bibitem{GuhaThakurta01072001}
+Debraj GuhaThakurta and Gary~D. Stormo.
+\newblock Identifying target sites for cooperatively binding factors.
+\newblock {\em Bioinformatics}, 17(7):608--621, 2001.
+
+\bibitem{10.1371}
+Naomi Habib, Tommy Kaplan, Hanah Margalit, and Nir Friedman.
+\newblock A novel bayesian dna motif comparison method for clustering and
+  retrieval.
+\newblock {\em PLoS Comput Biol}, 4(2):e1000010, 2008.
+
+\bibitem{pmid18426806}
+S.~Hannenhalli.
+\newblock {{E}ukaryotic transcription factor binding sites--modeling and
+  integrative search methods}.
+\newblock {\em Bioinformatics}, 24(11):1325--1331, Jun 2008.
+
+\bibitem{Hannenhalli01062005}
+Sridhar Hannenhalli and Li-San Wang.
+\newblock Enhanced position weight matrices using mixture models.
+\newblock {\em Bioinformatics}, 21(suppl 1):i204--i212, 2005.
+
+\bibitem{pmid19956545}
+X.~He, C.~C. Chen, F.~Hong, F.~Fang, S.~Sinha, H.~H. Ng, and S.~Zhong.
+\newblock {{A} biophysical model for analysis of transcription factor
+  interaction and binding site arrangement from genome-wide binding data}.
+\newblock {\em PLoS ONE}, 4:e8155, 2009.
+
+\bibitem{pmid20862354}
+X.~He, M.~A. Samee, C.~Blatti, and S.~Sinha.
+\newblock {{T}hermodynamics-based models of transcriptional regulation by
+  enhancers: the roles of synergistic activation, cooperative binding and
+  short-range repression}.
+\newblock {\em PLoS Comput. Biol.}, 6, Sep 2010.
+
+\bibitem{hill}
+Terrell~L Hill.
+\newblock {\em Cooperativity Theory in Biochemistry: Steady-state and
+  Equilibrium Systems}.
+\newblock New York: Springer-Verlag, 1985.
+
+\bibitem{hobson}
+A~Hobson.
+\newblock {\em {Concepts in Statistical Mechanics}}.
+\newblock Gordon and Breach, New York, 1971.
+
+\bibitem{Hong23122008}
+Joung-Woo Hong, David~A. Hendrix, Dmitri Papatsenko, and Michael~S. Levine.
+\newblock How the dorsal gradient works: Insights from postgenome technologies.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  105(51):20072--20076, 2008.
+
+\bibitem{pmid1325394}
+Y.~T. Ip, R.~E. Park, D.~Kosman, E.~Bier, and M.~Levine.
+\newblock {{T}he dorsal gradient morphogen regulates stripes of rhomboid
+  expression in the presumptive neuroectoderm of the {D}rosophila embryo}.
+\newblock {\em Genes Dev.}, 6:1728--1739, Sep 1992.
+
+\bibitem{Jain:1999:DCR:331499.331504}
+A.~K. Jain, M.~N. Murty, and P.~J. Flynn.
+\newblock Data clustering: A review.
+\newblock {\em ACM Comput. Surv.}, 31(3):264--323, 1999.
+
+\bibitem{pmid1655572}
+J.~Jiang, D.~Kosman, Y.~T. Ip, and M.~Levine.
+\newblock {{T}he dorsal morphogen gradient regulates the mesoderm determinant
+  twist in early {D}rosophila embryos}.
+\newblock {\em Genes Dev.}, 5:1881--1891, Oct 1991.
+
+\bibitem{pmid8453668}
+J.~Jiang and M.~Levine.
+\newblock {{B}inding affinities and cooperative interactions with b{H}{L}{H}
+  activators delimit threshold responses to the dorsal gradient morphogen}.
+\newblock {\em Cell}, 72:741--752, Mar 1993.
+
+\bibitem{Jiang1993741}
+Jin Jiang and Michael Levine.
+\newblock Binding affinities and cooperative interactions with bhlh activators
+  delimit threshold responses to the dorsal gradient morphogen.
+\newblock {\em Cell}, 72(5):741 -- 752, 1993.
+
+\bibitem{pmid1925551}
+D.~Kosman, Y.~T. Ip, M.~Levine, and K.~Arora.
+\newblock {{E}stablishment of the mesoderm-neuroectoderm boundary in the
+  {D}rosophila embryo}.
+\newblock {\em Science}, 254:118--122, Oct 1991.
+
+\bibitem{landaumech}
+D.~Landau and I.~Lifshitz.
+\newblock {\em {Mechanics}}, volume~1.
+\newblock Butterworth Heinemann, 1976.
+
+\bibitem{pmid17903288}
+M.~Lassig.
+\newblock {{F}rom biophysics to evolutionary genetics: statistical aspects of
+  gene regulation}.
+\newblock {\em BMC Bioinformatics}, 8 Suppl 6:S7, 2007.
+
+\bibitem{lawrence1993detecting}
+C.E. Lawrence, S.F. Altschul, M.S. Boguski, J.S. Liu, A.F. Neuwald, J.C.
+  Wootton, et~al.
+\newblock Detecting subtle sequence signals: a gibbs sampling strategy for
+  multiple alignment.
+\newblock {\em Science}, 262:208--208, 1993.
+
+\bibitem{lawr}
+P.~Lawrence.
+\newblock {\em {{T}he {M}aking of a {F}ly}}.
+\newblock Wiley-Blackwell, 1 edition, 1992.
+
+\bibitem{pmid15315758}
+T.~H. Leung, A.~Hoffmann, and D.~Baltimore.
+\newblock {{O}ne nucleotide in a kappa{B} site can determine cofactor
+  specificity for {N}{F}-kappa{B} dimers}.
+\newblock {\em Cell}, 118(4):453--464, Aug 2004.
+
+\bibitem{pmid15788537}
+M.~Levine and E.~H. Davidson.
+\newblock {{G}ene regulatory networks for development}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 102(14):4936--4942, Apr 2005.
+
+\bibitem{MEP}
+Raphael~D. Levine and Myron Tribus, editors.
+\newblock {\em {The Maximum Entropy Formalism}}.
+\newblock MIT Press, Cambridge, MA, 1978.
+
+\bibitem{gadempmid19193149}
+L.~Li.
+\newblock {{G}{A}{D}{E}{M}: a genetic algorithm guided formation of spaced
+  dyads coupled with an {E}{M} algorithm for motif discovery}.
+\newblock {\em J. Comput. Biol.}, 16(2):317--329, Feb 2009.
+
+\bibitem{liu2001bioprospector}
+X.~Liu, D.L. Brutlag, J.S. Liu, et~al.
+\newblock Bioprospector: {D}iscovering conserved {DNA} motifs in upstream
+  regulatory regions of co-expressed genes.
+\newblock In {\em Pac Symp Biocomput}, volume~6, pages 127--138, 2001.
+
+\bibitem{pmid17478497}
+S.~Mahony and P.~V. Benos.
+\newblock {{S}{T}{A}{M}{P}: a web tool for exploring {D}{N}{A}-binding motif
+  similarities}.
+\newblock {\em Nucleic Acids Res.}, 35(Web Server issue):W253--258, Jul 2007.
+
+\bibitem{pmid15128669}
+M.~Markstein, R.~Zinzen, P.~Markstein, K.~P. Yee, A.~Erives, A.~Stathopoulos,
+  and M.~Levine.
+\newblock {{A} regulatory code for neurogenic gene expression in the
+  {D}rosophila embryo}.
+\newblock {\em Development}, 131:2387--2394, May 2004.
+
+\bibitem{pmid19372434}
+S.~H. Meijsing, M.~A. Pufall, A.~Y. So, D.~L. Bates, L.~Chen, and K.~R.
+  Yamamoto.
+\newblock {{D}{N}{A} binding site sequence directs glucocorticoid receptor
+  structure and activity}.
+\newblock {\em Science}, 324(5925):407--410, Apr 2009.
+
+\bibitem{Moses04phylogeneticmotif}
+A.~M. Moses and M.~B. Eisen.
+\newblock Phylogenetic motif detection by expectation-maximization on
+  evolutionary mixtures.
+\newblock {\em Pac. Symp. Biocomput}, 324:324--335, 2004.
+
+\bibitem{pmid16271864}
+B.~Moussian and S.~Roth.
+\newblock {{D}orsoventral axis formation in the {D}rosophila embryo--shaping
+  and transducing a morphogen gradient}.
+\newblock {\em Curr. Biol.}, 15(21):R887--899, Nov 2005.
+
+\bibitem{pmid21890896}
+N.~Mrinal, A.~Tomar, and J.~Nagaraju.
+\newblock {{R}ole of sequence encoded {D}{N}{A} geometry in gene regulation by
+  {D}orsal}.
+\newblock {\em Nucleic Acids Res.}, 39(22):9574--9591, Dec 2011.
+
+\bibitem{pmid16236723}
+V.~Mustonen and M.~Lassig.
+\newblock {{E}volutionary population genetics of promoters: predicting binding
+  sites and functional phylogenies}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 102(44):15936--15941, Nov 2005.
+
+\bibitem{Nemenman02entropyand}
+Ilya Nemenman, Fariel Shafee, and William Bialek.
+\newblock Entropy and inference, revisited.
+\newblock In {\em Advances in Neural Information Processing Systems 14}, pages
+  471--478. MIT Press, 2002.
+
+\bibitem{pmid22683811}
+D.~J. Obbard, J.~Maclennan, K.~W. Kim, A.~Rambaut, P.~M. O'Grady, and F.~M.
+  Jiggins.
+\newblock {{E}stimating divergence dates and substitution rates in the
+  {D}rosophila phylogeny}.
+\newblock {\em Mol. Biol. Evol.}, 29(11):3459--3473, Nov 2012.
+
+\bibitem{pmid1582412}
+D.~Pan and A.~J. Courey.
+\newblock {{T}he same dorsal binding site mediates both activation and
+  repression in a context-dependent manner}.
+\newblock {\em EMBO J.}, 11(5):1837--1842, May 1992.
+
+\bibitem{pmid19651877}
+D.~Papatsenko, Y.~Goltsev, and M.~Levine.
+\newblock {{O}rganization of developmental enhancers in the {D}rosophila
+  embryo}.
+\newblock {\em Nucleic Acids Res.}, 37(17):5665--5677, Sep 2009.
+
+\bibitem{pmid15795372}
+D.~Papatsenko and M.~Levine.
+\newblock {{Q}uantitative analysis of binding motifs mediating diverse spatial
+  readouts of the {D}orsal gradient in the {D}rosophila embryo}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 102(14):4966--4971, Apr 2005.
+
+\bibitem{pmid19286833}
+U.~J. Pape, H.~Klein, and M.~Vingron.
+\newblock {{S}tatistical detection of cooperative transcription factors with
+  similarity adjustment}.
+\newblock {\em Bioinformatics}, 25(16):2103--2109, Aug 2009.
+
+\bibitem{pmid19843594}
+M.~W. Perry, J.~D. Cande, A.~N. Boettiger, and M.~Levine.
+\newblock {{E}volution of insect dorsoventral patterning mechanisms}.
+\newblock {\em Cold Spring Harb. Symp. Quant. Biol.}, 74:275--279, 2009.
+
+\bibitem{press_etal:1996}
+William~H. Press, Brian~P. Flannery, Saul~A. Teukolsky, and William~T.
+  Vetterling.
+\newblock {\em Numerical Recipes in C: The Art of Scientific Computing}.
+\newblock Cambridge University Press, 2 edition, 1992.
+
+\bibitem{perplexus}
+J.~Reinitz, S.~Hou, and D.~Sharp.
+\newblock {Transcriptional Control in Drosophila}.
+\newblock {\em Complexus}, 1:54--64, 2003.
+
+\bibitem{Schneider.Stephens1990}
+T.~D. Schneider and R.~M. Stephens.
+\newblock Sequence logos: A new way to display consensus sequences.
+\newblock {\em Nucleic Acids Res.}, 18:6097--6100, 1990.
+
+\bibitem{pmid3525846}
+T.~D. Schneider, G.~D. Stormo, L.~Gold, and A.~Ehrenfeucht.
+\newblock {{I}nformation content of binding sites on nucleotide sequences}.
+\newblock {\em J. Mol. Biol.}, 188:415--431, Apr 1986.
+
+\bibitem{pmid18172436}
+E.~Segal, T.~Raveh-Sadka, M.~Schroeder, U.~Unnerstall, and U.~Gaul.
+\newblock {{P}redicting expression patterns from regulatory sequence in
+  {D}rosophila segmentation}.
+\newblock {\em Nature}, 451:535--540, Jan 2008.
+
+\bibitem{pmid19506578}
+E.~Segal and J.~Widom.
+\newblock {{F}rom {D}{N}{A} sequence to transcriptional behaviour: a
+  quantitative approach}.
+\newblock {\em Nat. Rev. Genet.}, 10:443--456, Jul 2009.
+
+\bibitem{pmid21723826}
+I.~Sela and D.~B. Lukatsky.
+\newblock {{D}{N}{A} sequence correlations shape nonspecific transcription
+  factor-{D}{N}{A} binding affinity}.
+\newblock {\em Biophys. J.}, 101(1):160--166, Jul 2011.
+
+\bibitem{pmid18725950}
+E.~Sharon, S.~Lubliner, and E.~Segal.
+\newblock {{A} feature-based approach to modeling protein-{D}{N}{A}
+  interactions}.
+\newblock {\em PLoS Comput. Biol.}, 4(8):e1000154, 2008.
+
+\bibitem{Shutzabergerpmid18030333}
+R.~K. Shultzaberger, D.~Y. Chiang, A.~M. Moses, and M.~B. Eisen.
+\newblock {{D}etermining physical constraints in transcriptional initiation
+  complexes using {D}{N}{A} sequence analysis}.
+\newblock {\em PLoS ONE}, 2(11):e1199, 2007.
+
+\bibitem{pmid20339533}
+R.~Siddharthan.
+\newblock {{D}inucleotide weight matrices for predicting transcription factor
+  binding sites: generalizing the position weight matrix}.
+\newblock {\em PLoS ONE}, 5(3):e9722, 2010.
+
+\bibitem{pmid15511292}
+S.~Sinha, M.~Blanchette, and M.~Tompa.
+\newblock {{P}hy{M}{E}: a probabilistic algorithm for finding motifs in sets of
+  orthologous sequences}.
+\newblock {\em BMC Bioinformatics}, 5:170, Oct 2004.
+
+\bibitem{pmid16198288}
+A.~Stathopoulos and M.~Levine.
+\newblock {{G}enomic regulatory networks and animal development}.
+\newblock {\em Dev. Cell}, 9(4):449--462, Oct 2005.
+
+\bibitem{pmid22887818}
+Alexander~J Stewart, Sridhar Hannenhalli, and Joshua~B Plotkin.
+\newblock Why transcription factor binding sites are ten nucleotides long.
+\newblock {\em Genetics}, 192(3):973--85, Nov 2012.
+
+\bibitem{pmid9581503}
+G.~D. Stormo and D.~S. Fields.
+\newblock {{S}pecificity, free energy and information content in
+  protein-{D}{N}{A} interactions}.
+\newblock {\em Trends Biochem. Sci.}, 23:109--113, Mar 1998.
+
+\bibitem{pmid20877328}
+G.~D. Stormo and Y.~Zhao.
+\newblock {{D}etermining the specificity of protein-{D}{N}{A} interactions}.
+\newblock {\em Nat. Rev. Genet.}, 11(11):751--760, Nov 2010.
+
+\bibitem{pmid7774581}
+P.~Szymanski and M.~Levine.
+\newblock {{M}ultiple modes of dorsal-b{H}{L}{H} transcriptional synergy in the
+  {D}rosophila embryo}.
+\newblock {\em EMBO J.}, 14:2229--2238, May 1995.
+
+\bibitem{vankampen}
+N.~Van~Kampen.
+\newblock {\em Stochastic Processes in Physics and Chemistry}.
+\newblock North Holland, 3 edition, 2007.
+
+\bibitem{345660479}
+P.~H. von Hippel.
+\newblock On the molecular bases of the specificity of interaction of
+  transcriptional proteins with genome dna.
+\newblock In R.F.Goldberger, editor, {\em Biological Regulation and
+  Development}, volume~1, pages 279--347. Plenum Publishing, New York, 1979.
+
+\bibitem{pmid12777501}
+G.~A. Wray, M.~W. Hahn, E.~Abouheif, J.~P. Balhoff, M.~Pizer, M.~V. Rockman,
+  L.~A. Romano, and G.~A. Wray.
+\newblock {{T}he evolution of transcriptional regulation in eukaryotes}.
+\newblock {\em Mol. Biol. Evol.}, 20(9):1377--1419, Sep 2003.
+
+\bibitem{pmid17322397}
+J.~Zeitlinger, R.~P. Zinzen, A.~Stark, M.~Kellis, H.~Zhang, R.~A. Young, and
+  M.~Levine.
+\newblock {{W}hole-genome {C}h{I}{P}-chip analysis of {D}orsal, {T}wist, and
+  {S}nail suggests integration of diverse patterning processes in the
+  {D}rosophila embryo}.
+\newblock {\em Genes Dev.}, 21:385--390, Feb 2007.
+
+\bibitem{pmid16750631}
+R.~P. Zinzen, K.~Senger, M.~Levine, and D.~Papatsenko.
+\newblock {{C}omputational models for neurogenic gene expression in the
+  {D}rosophila embryo}.
+\newblock {\em Curr. Biol.}, 16:1358--1365, Jul 2006.
+
+\end{thebibliography}

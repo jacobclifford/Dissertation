@@ -1,0 +1,88 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2011/06/27 v2.e}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {msuphddissertation}{0000/00/00 v0.0}
+  *{class}  {book}        {2007/10/19 v1.4h}
+  *{file}   {bk12.clo}    {2007/10/19 v1.4h}
+  *{package}{ifthen}      {2001/05/26 v1.1c}
+  *{package}{setspace}    {2011/12/19 v6.7a}
+  *{package}{tocloft}     {2013/05/02 v2.3f}
+  *{package}{subfig}      {2005/06/28 v1.3}
+  *{package}{keyval}      {1999/03/16 v1.13}
+  *{package}{caption}     {2013/05/02 v3.3-89}
+  *{package}{caption3}    {2013/05/02 v1.6-88}
+  *{package}{geometry}    {2010/09/12 v5.6}
+  *{package}{ifpdf}       {2011/01/30 v2.3}
+  *{package}{ifvtex}      {2010/03/01 v1.5}
+  *{package}{ifxetex}     {2010/09/12 v0.6}
+  *{package}{pdflscape}   {2008/08/11 v0.10}
+  *{package}{lscape}      {2000/10/22 v3.01}
+  *{package}{graphics}    {2009/02/05 v1.0o}
+  *{package}{trig}        {1999/03/16 v1.09}
+  *{file}   {graphics.cfg}{2010/04/23 v1.9}
+  *{file}   {pdftex.def}  {2011/05/27 v0.06d}
+  *{package}{infwarerr}   {2010/04/08 v1.3}
+  *{package}{ltxcmds}     {2011/11/09 v1.22}
+  *{package}{rotating}    {2009/03/28 v2.16a}
+  *{package}{graphicx}    {1999/02/16 v1.0f}
+  *{package}{bm}          {2004/02/26 v1.1c}
+  *{package}{amsmath}     {2013/01/14 v2.14}
+  *{package}{amstext}     {2000/06/29 v2.01}
+  *{package}{amsgen}      {1999/11/30 v2.0}
+  *{package}{amsbsy}      {1999/11/29 v1.2d}
+  *{package}{amsopn}      {1999/12/14 v2.01}
+  *{package}{epsfig}      {1999/02/16 v1.7a}
+  *{package}{longtable}   {2004/02/01 v4.11}
+  *{package}{listings}    {2013/08/26 v1.5b}
+  *{package}{lstmisc}     {2013/08/26 v1.5b}
+  *{file}   {listings.cfg}{2013/08/26 v1.5b}
+  *{package}{color}       {2005/11/14 v1.0j}
+  *{file}   {color.cfg}   {2007/01/18 v1.5}
+  *{package}{pdfpages}    {2013/08/25 v0.4v}
+  *{package}{calc}        {2007/08/22 v4.3}
+  *{package}{eso-pic}     {2013/10/06 v2.0d}
+  *{package}{atbegshi}    {2011/10/05 v1.16}
+  *{file}   {pppdftex.def}{2013/08/25 v0.4v}
+  *{package}{multirow}    {0000/00/00 v0.0}
+  *{package}{supertabular}{2004/02/20 v4.1e}
+  *{package}{ltcaption}   {2013/02/03 v1.3-62}
+  *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
+  *{package}{pdftexcmds}  {2011/11/29 v0.20}
+  *{package}{ifluatex}    {2010/03/01 v1.3}
+  *{package}{epstopdf-base}{2010/02/09 v2.5}
+  *{package}{grfext}      {2010/08/19 v1.1}
+  *{package}{kvdefinekeys}{2011/04/07 v1.3}
+  *{package}{kvoptions}   {2011/06/30 v3.11}
+  *{package}{kvsetkeys}   {2012/04/25 v1.16}
+  *{package}{etexcmds}    {2011/02/16 v1.5}
+  *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
+  *{file}   {phasespace.tex}{0000/00/00 v0.0}
+  *{file}   {CK.tex}      {0000/00/00 v0.0}
+  *{file}   {bindingenergy.tex}{0000/00/00 v0.0}
+  *{file}   {bindingenergy2.tex}{0000/00/00 v0.0}
+  *{file}   {CliffordAdami.tex}{0000/00/00 v0.0}
+  *{file}   {plotcayatg.pdf}{Graphic v0.0}
+  *{file}   {rsCAYATG30-eps-converted-to.pdf}{Graphic v0.0}
+  *{file}   {infopair.pdf}{Graphic v0.0}
+  *{file}   {miclasses-new.pdf}{Graphic v0.0}
+  *{file}   {plotCACATG302015.pdf}{Graphic v0.0}
+  *{file}   {rocenhaCACATG30-eps-converted-to.pdf}{Graphic v0.0}
+  *{file}   {miclassesCACATG30-eps-converted-to.pdf}{Graphic v0.0}
+  *{file}   {rsCACATG30-eps-converted-to.pdf}{Graphic v0.0}
+  *{file}   {entropyN100-eps-converted-to.pdf}{Graphic v0.0}
+  *{file}   {EntropyBiasCB_L9-eps-converted-to.pdf}{Graphic v0.0}
+  *{file}   {Chapter3occupancy.tex}{0000/00/00 v0.0}
+  *{file}   {model.tex}   {0000/00/00 v0.0}
+  *{file}   {segalblandscape.png}{Graphic v0.0}
+  *{file}   {configurationMatrixIb.png}{Graphic v0.0}
+  *{file}   {rhoNEEs.png} {Graphic v0.0}
+  *{file}   {model2.tex}  {0000/00/00 v0.0}
+  *{file}   {PlugandPlay.jpg}{Graphic v0.0}
+  *{file}   {DIb.pdf}     {Graphic v0.0}
+  *{file}   {DInosnail.pdf}{Graphic v0.0}
+  *{file}   {annNosnail.pdf}{Graphic v0.0}
+  *{file}   {annb.pdf}    {Graphic v0.0}
+  *{file}   {annc.pdf}    {Graphic v0.0}
+  *{file}   {PhD_Dissertation_Template.bbl}{0000/00/00 v0.0}
+}

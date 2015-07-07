@@ -1,0 +1,237 @@
+%% Before beginning to type your dissertation, read the formatting guide, 
+%% which can be found at http://grad.msu.edu/etd
+%% and clicking Formatting Guide in the left hand column.
+%% Also get the latest version of  msuphddissertation.cls and the template file
+%% at http://www.math.msu.edu/~weil/MSU_Ph.D._Dissertation.zip
+%% Send questions to weil@math.msu.edu
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%  NOTE   %%%%%%%%%%%%%%
+%% PREPARING A DISSERTATION WITH THIS CLASS FILE DOES NOT %%%
+%% GUARANTEE THAT THE GRADUATE SCHOOL WILL APPROVE IT %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{snapshot}
+\documentclass{msuphddissertation}
+\usepackage{bm}% bold math
+\usepackage{graphics}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{listings}
+\usepackage{color}
+\pagecolor{white}
+\usepackage[final]{pdfpages}
+\newcommand{\be}{\begin{eqnarray}}
+\newcommand{\ee}{\end{eqnarray}}
+\newcommand{\Eref}[1]{Equation (\ref{#1})}
+\newcommand{\Fref}[1]{Figure~\ref{#1}}
+\newcommand{\Tref}[1]{Table~\ref{#1}}
+\usepackage{multirow}
+\usepackage{supertabular}
+\newcommand{\plotlen}{4.4cm}
+%% Insert packages you wish to use except setspace and subfig. 
+%% Those packages are loaded automatically.
+%% IMPORTANT: Load only those packages you know you will use.
+%% Some packages can cause conflicts resulting in improper formatting.
+\author{Jacob Clifford} %% Put your name in full as it is officially recognized by Michigan State University here.
+\title{Analysis of Cooperative Transcription Factor Binding at the Sequence Level} %% Put the title of your dissertation here.
+\unit{Physics} %% Copy and paste the name of your 
+%% GRADUATE DEGREE GRANTING UNIT/PROGRAM
+%% and the DEGREE  from the complete list of these at
+%% http://grad.msu.edu/etd/docs/DegreeGrantingUnits.pdf
+%% separated by a dash, created by typing ---.
+
+%% Put additional preamble items here.
+
+\begin{document}
+
+\maketitlepage %%This command will produce the title page of your thesis.
+\begin{abstract}
+
+Transcription Factor binding to DNA binding sites is one of the primary causes of gene regulation.  A common representation of transcription factor binding sites is at the DNA sequence level, partly due to reoccurring patterns at the sequence level that occur throughout the genome for a given factor.  The first chapter of this dissertation introduces gene regulation from the perspective of development.  In addition the mathematical-physics foundation for performing calculations and for representations of the transcription factor binding sites at the sequence level is discussed in Chapter 1.  In Chapter 2 I explore the possibility that two distinct sub-types of binding sites may co-exist within a population of functional sites.  This leads to a model that can be used for prediction of transcription factor binding sites.  In Chapter 3 I explore modeling of Dorsal Ventral early development Gene Regulatory Network, using the tools built up in Chapter 1 and 2, namely 'Position Weight Matrices' that allow for prediction of binding energies for genomic segments of DNA.   
+%% Type your abstract here. An abstract is REQUIRED and limited to two pages.
+%% The abstract must not include any figures.
+%This dissertation is a description transcription factor binding that allows for prediction of the behavior of the Dorsal Ventral patterning gene regulatory network of Drosophila early development.  Although Drosophila, the fruit fly, is much simpler than human, its molecular biology contains many similar to almost identical mechanisms for controlling genes, and hence is in the premiere league of modeling systems for understanding how human genes are molecularly controlled.  
+%
+%Genes, in a broad sense, are the particles that are passed on from parents to progeny that contain the information about the characteristics of the parent.  The characteristics of the parents are their 'traits', like eye color, susceptibility to diabetes II, or fecundity (a proxy for 'fitness')).  Hence knowledge of one's genes, or a population of people's genes, a gene pool, allows one to make predictions about what traits will exist in future generations.
+%
+%The 'traits' of interest in this dissertation are not at the level of the adult, or even at the level of a recognizable animal.  They are at the cellular level, where 'development' builds an adult by 'developing' different cell types that are arranged together to form an adult body plan.  The initial steps of turning a totipotent cell (the zygote) into a ball of thousands of cells, the embryo, where each cell has its very own genome that becomes fated to be the brain, the leg, etc.. of the fly through gene regulation.
+%
+%The aspect of gene regulation that I focus on is at the level of transcription.  The first step in the 'central dogma', where DNA is copied to an RNA sequence.  It is the control of this that we will consider 'regulation', where control is in the sense of how many RNA 'transcripts' should be produced.
+%  
+%%The reason we focus on the dogma and on development is because 'development' produces in tandem with production of RNA a set of controlled experiments, which are currently at the cutting edge of experimental set ups in the lab.   For example, a cutting edge experiment is in vitro reconstitution experiments which allow for the production of RNA by putting the 50 to 100 different particles necessary together in an in vitro environment to replicate the complicated mesoscale process of regulation of transcription.  This is not simply throwing bacterial polymerase in with DNA, such as performed with polymerase chain reaction (PCR), it's placing the nucleosomes (mesoscale) and all the basal transcription factors (fat nanoparticles) and the many mediator particles and the the distal enhancers and transcription factors and adaptors all together to see what minimally gets the process of transcription to work.  The fly embryo produces a set of cells that are all under the same conditions, just as a technician would set up a pitri dish full of cells under similar conditions.  Each of these cells is reliably producing transcripts at a particular point in time in development, where the time reproducibility is a function of the temperature.  The dogma allows for us to observe the emitted particles from a cell or from the genome, the transcripts or the proteins they eventually produce.  It is these particles that allow for deciphering the mechanism of control of genes.   
+%The reason we focus on the dogma and on development is because 'development' produces in tandem with production of RNA a set of controlled experiments that surpass the cutting edge of experimental set ups in the lab.   
+%  
+%Maternally controlled molecules, controlled in the sense of being positioned at different locations of the embryonic shell, diffuse or are actively transported to the individual cells of the embryo to control specific genes in the genome that reside in each of the cells.  In early fly development the cells of the embryo, each with their own genome, form a monolayer around a spherical yoke, like corn on the cob, and hence the maternal chamber has access to all the cells of the embryo in early development.  By observing both the input maternally laid particles and the behavior of the emitted particles, the mRNA and the proteins they produce, we can decipher what is occurring at the gene regulatory level.  The obvious inference is that the input maternal molecules must somehow pass a message to the gene that is being controlled.  The mechanism that I study for gene regulation is where the input molecule 'binds' to a location specific segment of DNA, such as the sequence GGAAAATCC, and thereby passing a message to the flanking sequence of the DNA 'binding site'.  The easiest message to observe is 'turn on' or 'turn off', which is seen through the dogma, through transcription, because we can easily observe proteins and RNA through common lab techniques. But broadly, regulation of genes by the 'binding' process means controlling the inheritable flanking sequences of the docking site (where the controlled flanking sequence may not be a dogmatic 'gene' that encodes for a protein, it could be anything that is useful for the organism fitness, and is therefore selected by evolution).
+%
+
+
+
+
+\end{abstract}
+
+%% If you wish to have a copyright page, remove the "%" in front of \begin{copyrt}
+%% and remove the "%" in front of \end{copyrt}.
+%% An acceptable form of a Copyright will be generated automatically
+%% using the information you've already provided above. 
+%% A copyright statement is optional, but you're strongly advised to include it.
+
+%\begin{copyrt}
+%\end{copyrt}
+
+%% If you wish to have a dedication, remove the "%" in front of
+%% \begin{dedication}
+%% and remove the "%" in front of 
+%% \end{dedication}
+%% A dedication must be single-spaced and 
+%% centered on the page.  Both will be done automatically. 
+
+%\begin{dedication} 
+%% Type your dedication here. A dedication is optional.
+%\end{dedication}
+
+%% If you wish to have an acknowledgment, remove the "%" in front of  \begin{acknowledgment}
+%% and remove the "%" in front of  \end{acknowledgment}  
+%\begin{acknowledgment}
+%% Type your acknowledgment here. An acknowledgment is optional.
+%\end{acknowledgment}
+
+%% If you wish to have a preface, remove the "%" in front of \begin{preface}
+%% and remove the "%" in front of \end{preface}. The formatting of
+%% a preface isn't specified.
+%\begin{preface}
+%% Type your preface here. A preface is optional.
+%\end{preface}
+
+\TOC %% This command produces the Table of Contents. DO NOT REMOVE!
+
+%% If your document contains tables, remove the "%" in front of 
+%%  the following line.
+\LOT
+
+%% If your document contains figures, remove the "%" in front of
+%% the following line.
+\LOF
+
+%%%% LIST OF SYMBOLS AND ABBREVIATIONS %%%%
+%% If you wish to have a list of symbols, it should be here.
+%% To create the list, remove the "%" in front of \begin{abbreviationskey}
+%% and remove the "%" in front of \end{abbreviationskey}
+%\begin{abbreviationskey}
+%% Type your list as a list environment, a tabular environment or in any
+%% fashion you wish here.
+%\end{abbreviationskey}
+%% The list will be included in the TOC as
+%% KEY TO SYMBOLS AND ABBREVIATIONS
+%% To change the name to something else, remove the "%" 
+%% from the next line and change "DESIRED NAME" 
+%% to your choice IN UPPER CASE.
+%\renewcommand{\keyname}{DESIRED NAME}
+%%%%%%%%%%
+
+\newpage
+\pagenumbering{arabic}
+\begin{doublespace}
+
+
+% not in use \input{Introduction}
+
+
+\input{phasespace}
+\input{bindingenergy}
+\input{bindingenergy2}
+
+
+% not in use\input{Chapter1controlledNot}  % maybe breeder's equation, and relative energy work
+
+
+%\input{Chapter2Orgate}
+\input{CliffordAdami}
+\input{Chapter3occupancy}
+\newpage
+\section{Conclusion}
+The MPA annotation model developed here was used in conjunction with the OR gate for Dorsal binding sites ( DC and DU PWMs).  The OR gate was designed to be sensitive (it is more likely to call a positive hit than its component PWMs), while disregarding the pitfuls of specificity (a false positive picked up by just one component detector will be declared a positive for the OR gate, even if the majority of component detectors declare the site a negative.).  The high sensitivity of the OR gate used in conjunction with the the MPA annotator (which is designed for high specificity),  yields a highly effective bioinformatic tool for discovery of binding sites.  Annotation of CRMs at half max occupancy of the Basal Transcription Apparatus (the transition from the boolean 0 to 1 expression), reduces the likelihood of picking up binding sites that are nonfunctional and hence misclassified as a 'hit' in the annotation process, since high occupancy of BTA could result from many binding sites that are not critical to get the initial switch.
+
+ The occupancy model generalizes over binding sites, in that the input to the model is an enhancer sequence, not a list of binding sites.  So a priori one does not know what binding sites will be selected, rather the physical control parameters (concentration, binding energy, protein-protein interactions) determine what is a binding site.  In this sense the MPA annotation model could be thought of as generating a fixed number of binding sites as part of its output.  This is a contribution to the field, which i point out Segal said specifically their model could not address at this level of detail, they could only make statements about the numerical values of coopertivity quenching.  With this being said one could judiciously choose parameter values to reconstruct the exact engineered enhancers (which in a sense we did for our last experiment), but of course, we wish to find parameters which are consistent with not just one construct but the entire GRN.
+ 
+ Much of the analysis is about experimental design, as experiments are not only necessary to test theory, but they are necessary to tune parameters for well known theories.  Binding of morphogens to CRMs is not a theory under dispute, nor is the theoretical calculation of the occupation of the morphogen's to the CRM, that's been known for many years.  What is not known is the strength and importance of the parameters controlling the occupation of morphogens on the promoter, and how much each of these in turn affect BTA binding.  This requires model design, to infer what the value of these parameters.  However, this data is not always available, hence I have shown an alternative technique, where I have tried to use low quality data from the literature to tune the parameters.  As was seen from Experiment 2, it is possible to mathematically arrive at certain conclusions reached by Szymanski (that cooperativity is necessary in the NEEs).  However, Szymanski's $6xdl$ construct is not consistent with reported parameter ranges of thermodyanmic models collected by Buchler et.al.\cite{pmid12702751}. Hence, it was necessary to adjust the thermodynamic model parameter ranges.  Possibly one could argue that one can not adjust the parameter ranges found by Buchler since they cover a broad spectrum of proteins.  Indeed, the values of the cooperativity we found in Experiment 2 are so high that is unlikey Dorsal and Twist would ever unbind once bound; albeit it is possible Dorsal-Twist dimers do occur in the nucleoplasm.  Furthermore, Szymanski and others have reported 'uniform' expression profiles in certain constructs (CRMs) that are not fully 'on' (the staining of the target gene was weak).  Such reports are not consistent with the themodynamic model for Dorsal occupancy, since Dorsal occupancy is never 'uniform' it is a gradient, like Lewis Wolpert's French Flag model of morphogens.  Hence, reconstruction of basic assumptions I have made here may be necessary to accurately represent Dorsal targeted genese in DV.      
+
+	Lastly, the idea that one should search for the ideal positive definite Hessian at the best estimates of the parameters is incorrect for the DV network.  The elusive positive definite Hessian is only for independent parameters.  The biochemical parameters that control the logic (gene switches) governing early development have coevolved to work together to jointly regulate the DV axis, hence it is wrong to state that the parameters must be independent.  
+% not in use \input{dataset}
+% not in use \input{model}
+%% Put the body of your dissertation here. 
+%% DO NOT include the bibliography or any appendices.
+
+%%%%%% LANDSCAPE PAGES  %%%%%%
+%% To produce text, graphics or tables in landscape mode, 
+%% use the following template. Begin be removing the single "%" signs below.
+%\begin{landscape}
+%\thispagestyle{empty}
+%\begin{minipage}{\linewidth}
+%% Insert the graphics or table that is to be in landscape mode.
+%% Use the figure or table environment. You may wish to center the float. 
+%\end{minipage}
+%\end{landscape}
+
+%%%%%%%    APPENDICES    %%%%%%%%%%
+%% If you wish to include one appendix, remove the "%" from the 
+%% following two lines.
+%\renewcommand{\appname}{APPENDIX}
+%\appendix
+%% To include several appendices, remove the only the "%"
+%% in front of "\appendix".
+
+%% In either cast to start your first appendix, which will be labeled
+%% as Appendix A, just type \chapter{<appendix 1 name>}
+%% and enter the text of the appendix as you would a chapter.
+
+%%%%%%% A NOTE ABOUT APPENDICES %%%%%%%%%
+%% Some appendices may be single spaced such as survey examples
+%% or letters. Contact the Graduate School for details.
+%% To single space an appendix first remove the "%" from 
+%% the following two lines.
+%\end{doublespace}
+%\chapter{<appendix name>}
+%% Insert the name of the appendix.
+%% Insert the text of the appendix.
+%% Remove the "%" from the following line.
+%\begin{doublespace}
+%% Any text entered now will be double spaced.
+
+\end{doublespace}
+
+%%%%%%  Bibliography %%%%%
+%% A bibliography is required. By default it is called, "Bibliography"
+%% You may use “Literature Cited”, “Works Cited” or “References” 
+%% instead of “Bibliography” if that is the convention in your discipline. 
+%% To do so, place your choice in the  empty argument 
+%% of the following command and remove the "%".
+%\renewcommand{\bibname}{}
+
+%% The bibliography may be made using BibTeX.
+%% To do so the necessary commands must be entered in the 
+%% preamble and here.
+%% If the Bibliography is made from scratch,
+%% remove the "%" in front of "\begin{thebibliography}{???}"
+%% replacing the ??? with the appropriate entry and 
+%% remove the "%" in front of "\end{thebibliography}"
+% \begin{thebibliography}{???}
+%%  Enter the bibliography here.
+% \end{thebibliography}
+%% In either case, the bibliography is automatically entered
+%% in the Table of Contents.
+
+
+\bibliographystyle{plain}
+
+\bibliography{sample}
+
+\end{document}
+
+%%%%%% A FINAL COMMENT %%%%
+%% Once your document has been filed with the Graduate School,
+%% if you wish to produce a single spaced version of your document, 
+%% find and remove the two commands \begin{doublespace}
+%% and \end{doublespace} above.
