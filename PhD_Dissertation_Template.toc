@@ -1,7 +1,7 @@
 \contentsline {chapter}{\textbf {LIST OF TABLES}\vspace {\baselineskip }}{vi}
 \contentsline {chapter}{\textbf {LIST OF FIGURES}\vspace {\baselineskip }}{vii}
 \contentsline {chapter}{\numberline {Chapter 1}}{1}
-\contentsline {section}{\numberline {1.1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Mathematical Physics Introduction}{1}
 \contentsline {subsection}{\numberline {1.1.1}Phase space, a real vector space }{7}
 \contentsline {subsection}{\numberline {1.1.2}One binding site}{17}
 \contentsline {subsection}{\numberline {1.1.3}Two dependent binding sites}{19}
@@ -9,91 +9,98 @@
 \contentsline {subsection}{\numberline {1.1.5} Highly correlated systems, the k-mer and recognition problem}{20}
 \contentsline {subsection}{\numberline {1.1.6}K-mers and PWM binding constants}{22}
 \contentsline {subsection}{\numberline {1.1.7}Single binding site protein systems in distinct environments c and u}{23}
-\contentsline {chapter}{\numberline {Chapter 2}}{27}
-\contentsline {section}{\numberline {2.1}Introduction}{27}
-\contentsline {subsection}{\numberline {2.1.1}Position Weight Matrices}{27}
-\contentsline {subsection}{\numberline {2.1.2}In-vitro Biophysical PWMs}{28}
-\contentsline {subsection}{\numberline {2.1.3}Evolutionary PWMs}{30}
-\contentsline {subsection}{\numberline {2.1.4}Relation between biophysical PWMs and evolutionary PWMs }{32}
-\contentsline {subsection}{\numberline {2.1.5}Shortcomings of PWMs}{33}
-\contentsline {subsection}{\numberline {2.1.6}Physical Shortcomings of PWMs}{35}
-\contentsline {subsection}{\numberline {2.1.7}Dependencies within transcription factor bindings sites }{35}
-\contentsline {subsection}{\numberline {2.1.8}Dependencies between transcription factor binding sites}{36}
-\contentsline {subsection}{\numberline {2.1.9}Conditional PWMs based on co-occurring factor binding sites}{36}
-\contentsline {section}{\numberline {2.2}Materials}{37}
-\contentsline {subsection}{\numberline {2.2.1}Data for known Dorsal binding sites in \textit {D. melanogaster} Dorsal-Ventral network}{37}
-\contentsline {subsection}{\numberline {2.2.2}DNA sequence context of binding sites}{39}
-\contentsline {section}{\numberline {2.3}Methods}{40}
-\contentsline {subsection}{\numberline {2.3.1}Clustering Dorsal target loci based on co-occurring binding sites}{40}
-\contentsline {subsection}{\numberline {2.3.2}Classifying binding sites based on spacer window}{41}
-\contentsline {subsection}{\numberline {2.3.3}Energy estimation of a base}{42}
-\contentsline {subsection}{\numberline {2.3.4}Energy estimation of a sequence of bases}{44}
-\contentsline {section}{\numberline {2.4}Model detectors}{45}
-\contentsline {section}{\numberline {2.5}Results}{47}
-\contentsline {subsection}{\numberline {2.5.1}Optimal spacer window for the OR Gate detector}{47}
-\contentsline {subsection}{\numberline {2.5.2}The conditional and unconditional PWMs are significantly different}{50}
-\contentsline {section}{\numberline {2.6}Performance of optimal classifiers (detectors) }{52}
-\contentsline {subsection}{\numberline {2.6.1}The DC detector predicts sites proximal to 5'-CAYATG with better odds than the DU detector.}{52}
-\contentsline {subsection}{\numberline {2.6.2}Both OR gate and CB detectors show high sensitivity with known sites as positives and CRM sequences as negatives }{53}
-\contentsline {subsection}{\numberline {2.6.3}The OR gate performs better than CB at predicting known sites at lower energies}{54}
-\contentsline {section}{\numberline {2.7}Discussion}{57}
-\contentsline {subsection}{\numberline {2.7.1}DC and DU Information logos and previous evidence}{57}
-\contentsline {subsection}{\numberline {2.7.2}The OR gate and the CB detector}{60}
-\contentsline {subsection}{\numberline {2.7.3}The CB data set, merging and dividing clusters of binding sites}{62}
-\contentsline {subsection}{\numberline {2.7.4} Mixtures of asymmetric PWMs}{65}
-\contentsline {subsection}{\numberline {2.7.5}Comparing models with unequal parameters}{68}
-\contentsline {subsection}{\numberline {2.7.6}Information that detectors have about Dorsal binding sites}{70}
-\contentsline {subsection}{\numberline {2.7.7}Conditional detectors}{73}
-\contentsline {subsection}{\numberline {2.7.8}Forms Of Conditional Detector's score}{74}
-\contentsline {section}{\numberline {2.8}Conclusion}{75}
-\contentsline {section}{\numberline {2.9}Methods Supplement}{76}
-\contentsline {subsection}{\numberline {2.9.1} Alignment of cis-regulatory modules and collection of $\mathcal D_{\textbf {CB}}$}{76}
-\contentsline {subsection}{\numberline {2.9.2}GEMSTAT modifications for locus annotation of CRMs}{77}
-\contentsline {subsection}{\numberline {2.9.3}Overlapping site processing}{79}
-\contentsline {subsection}{\numberline {2.9.4}Error In estimating the spacer length between known Dorsal loci and Twist sites}{79}
-\contentsline {subsection}{\numberline {2.9.5}PWM Best \textit {predictions} of binding site loci }{80}
-\contentsline {subsection}{\numberline {2.9.6}Expectation Maximization Alignment}{81}
-\contentsline {subsection}{\numberline {2.9.7}CB was designed to be an approximation to a mixture}{83}
-\contentsline {subsection}{\numberline {2.9.8}Conditional Distributions}{84}
-\contentsline {subsection}{\numberline {2.9.9} Detector energy thresholds, $E_c$}{86}
-\contentsline {section}{\numberline {2.10}Results Supplement}{88}
-\contentsline {subsection}{\numberline {2.10.1}Description of rank sum sampling distribution construction}{88}
-\contentsline {subsection}{\numberline {2.10.2}logodds ratio test of DC and DU positive hits}{88}
-\contentsline {subsection}{\numberline {2.10.3} Mutual Information between known class tags and the conditional detector's predictions of class tags}{90}
-\contentsline {section}{\numberline {2.11}Additional Experiment Supplement, Rerunning Model on CACATG Twist Motif}{93}
-\contentsline {subsection}{\numberline {2.11.1}ROC curve}{95}
-\contentsline {subsection}{\numberline {2.11.2} Mutual Information between loci classes $C$ and detector predictions of classes $P$}{96}
-\contentsline {subsection}{\numberline {2.11.3}Permutation test using ranksum statistic }{97}
-\contentsline {subsection}{\numberline {2.11.4}Entropy Bias}{103}
-\contentsline {chapter}{\numberline {Chapter 3}}{106}
-\contentsline {section}{\numberline {3.1} Model Background}{106}
-\contentsline {subsection}{\numberline {3.1.1} Fractional Occupancy of Morphogen Binding to DNA binding Site}{106}
-\contentsline {subsection}{\numberline {3.1.2} Fractional occupancy of CRMs containing multiple binding sites }{108}
-\contentsline {subsection}{\numberline {3.1.3}Segal's Hidden Markov Model}{109}
-\contentsline {subsection}{\numberline {3.1.4} Enumerating the configurations of a CRM sequence }{110}
-\contentsline {subsection}{\numberline {3.1.5}The configuration vector nomenclature}{111}
-\contentsline {subsection}{\numberline {3.1.6} An example of the hybrid configuration notation}{114}
-\contentsline {subsection}{\numberline {3.1.7} The pairwise interaction $\omega $ between bound factors}{115}
-\contentsline {subsection}{\numberline {3.1.8} Relating the number of mRNA transcripts to fractional occupancy of PolII }{119}
-\contentsline {subsection}{\numberline {3.1.9} Fractional occupancy of BTA }{120}
-\contentsline {subsection}{\numberline {3.1.10} Fractional occupancy of BTA from a binding reaction perspective }{122}
-\contentsline {subsection}{\numberline {3.1.11}Fractional occupancy of BTA in Cooperative Binding (CB) model in Xin He's GEMSTAT}{123}
-\contentsline {subsection}{\numberline {3.1.12}Fractional occupancy of BTA in Ay's model}{125}
-\contentsline {section}{\numberline {3.2} Data set }{129}
-\contentsline {subsection}{\numberline {3.2.1}Collection of data from DV network of Dorsal, Twist, and Snail targets in Neuroectoderm and Mesoderm, and PWMs}{134}
-\contentsline {section}{\numberline {3.3}Nonlinear regression model }{136}
-\contentsline {subsection}{\numberline {3.3.1} Putting the data parts and free parameters together to form the nonlinear model of BTA occupancy }{136}
-\contentsline {subsection}{\numberline {3.3.2}Free parameters to be fit}{136}
-\contentsline {section}{\numberline {3.4} Annotation model of binding sites}{138}
-\contentsline {subsection}{\numberline {3.4.1}Discovering the binding sites within the CRM}{138}
-\contentsline {subsection}{\numberline {3.4.2}Annotation Model of Binding Sites without a PWM threshold}{140}
-\contentsline {section}{\numberline {3.5}Model fitting}{145}
-\contentsline {subsection}{\numberline {3.5.1}Covariance matrix of fitted parameters}{147}
-\contentsline {subsection}{\numberline {3.5.2}The overdetermined and underdetermined problem}{150}
-\contentsline {section}{\numberline {3.6}Results and Discussion}{152}
-\contentsline {subsection}{\numberline {3.6.1}Best fit of parameters for data from Section3.2.1\hbox {}, Experiment 1}{152}
-\contentsline {subsection}{\numberline {3.6.2}Redesigning the parameters to be fit}{155}
-\contentsline {subsection}{\numberline {3.6.3} Analytic Jacobian }{157}
-\contentsline {subsection}{\numberline {3.6.4} Robustness analysis, Experiment 3 }{162}
-\contentsline {section}{\numberline {3.7}Conclusion}{168}
-\contentsline {chapter}{\textbf {Bibliography} \vspace {\baselineskip }}{171}
+\contentsline {section}{\numberline {1.2}Biological Introduction}{26}
+\contentsline {subsection}{\numberline {1.2.1}Tree of Life and the Theory of Life}{26}
+\contentsline {subsubsection}{\numberline {1.2.1.1}Comparative Anatomy and Physiology}{26}
+\contentsline {subsubsection}{\numberline {1.2.1.2}The origin of multicellularity; the precursors to development}{30}
+\contentsline {subsection}{\numberline {1.2.2}Evolution and Development}{34}
+\contentsline {subsection}{\numberline {1.2.3}Multiple Sequence Alignment}{35}
+\contentsline {subsection}{\numberline {1.2.4}Evolution and Development}{35}
+\contentsline {chapter}{\numberline {Chapter 2}}{36}
+\contentsline {section}{\numberline {2.1}Introduction}{36}
+\contentsline {subsection}{\numberline {2.1.1}Position Weight Matrices}{36}
+\contentsline {subsection}{\numberline {2.1.2}In-vitro Biophysical PWMs}{37}
+\contentsline {subsection}{\numberline {2.1.3}Evolutionary PWMs}{39}
+\contentsline {subsection}{\numberline {2.1.4}Relation between biophysical PWMs and evolutionary PWMs }{41}
+\contentsline {subsection}{\numberline {2.1.5}Shortcomings of PWMs}{42}
+\contentsline {subsection}{\numberline {2.1.6}Physical Shortcomings of PWMs}{44}
+\contentsline {subsection}{\numberline {2.1.7}Dependencies within transcription factor bindings sites }{44}
+\contentsline {subsection}{\numberline {2.1.8}Dependencies between transcription factor binding sites}{45}
+\contentsline {subsection}{\numberline {2.1.9}Conditional PWMs based on co-occurring factor binding sites}{45}
+\contentsline {section}{\numberline {2.2}Materials}{46}
+\contentsline {subsection}{\numberline {2.2.1}Data for known Dorsal binding sites in \textit {D. melanogaster} Dorsal-Ventral network}{46}
+\contentsline {subsection}{\numberline {2.2.2}DNA sequence context of binding sites}{48}
+\contentsline {section}{\numberline {2.3}Methods}{49}
+\contentsline {subsection}{\numberline {2.3.1}Clustering Dorsal target loci based on co-occurring binding sites}{49}
+\contentsline {subsection}{\numberline {2.3.2}Classifying binding sites based on spacer window}{50}
+\contentsline {subsection}{\numberline {2.3.3}Energy estimation of a base}{51}
+\contentsline {subsection}{\numberline {2.3.4}Energy estimation of a sequence of bases}{53}
+\contentsline {section}{\numberline {2.4}Model detectors}{54}
+\contentsline {section}{\numberline {2.5}Results}{56}
+\contentsline {subsection}{\numberline {2.5.1}Optimal spacer window for the OR Gate detector}{56}
+\contentsline {subsection}{\numberline {2.5.2}The conditional and unconditional PWMs are significantly different}{59}
+\contentsline {section}{\numberline {2.6}Performance of optimal classifiers (detectors) }{61}
+\contentsline {subsection}{\numberline {2.6.1}The DC detector predicts sites proximal to 5'-CAYATG with better odds than the DU detector.}{61}
+\contentsline {subsection}{\numberline {2.6.2}Both OR gate and CB detectors show high sensitivity with known sites as positives and CRM sequences as negatives }{62}
+\contentsline {subsection}{\numberline {2.6.3}The OR gate performs better than CB at predicting known sites at lower energies}{63}
+\contentsline {section}{\numberline {2.7}Discussion}{66}
+\contentsline {subsection}{\numberline {2.7.1}DC and DU Information logos and previous evidence}{66}
+\contentsline {subsection}{\numberline {2.7.2}The OR gate and the CB detector}{69}
+\contentsline {subsection}{\numberline {2.7.3}The CB data set, merging and dividing clusters of binding sites}{71}
+\contentsline {subsection}{\numberline {2.7.4} Mixtures of asymmetric PWMs}{74}
+\contentsline {subsection}{\numberline {2.7.5}Comparing models with unequal parameters}{77}
+\contentsline {subsection}{\numberline {2.7.6}Information that detectors have about Dorsal binding sites}{79}
+\contentsline {subsection}{\numberline {2.7.7}Conditional detectors}{82}
+\contentsline {subsection}{\numberline {2.7.8}Forms Of Conditional Detector's score}{83}
+\contentsline {section}{\numberline {2.8}Conclusion}{84}
+\contentsline {section}{\numberline {2.9}Methods Supplement}{85}
+\contentsline {subsection}{\numberline {2.9.1} Alignment of cis-regulatory modules and collection of $\mathcal D_{\textbf {CB}}$}{85}
+\contentsline {subsection}{\numberline {2.9.2}GEMSTAT modifications for locus annotation of CRMs}{86}
+\contentsline {subsection}{\numberline {2.9.3}Overlapping site processing}{88}
+\contentsline {subsection}{\numberline {2.9.4}Error In estimating the spacer length between known Dorsal loci and Twist sites}{88}
+\contentsline {subsection}{\numberline {2.9.5}PWM Best \textit {predictions} of binding site loci }{89}
+\contentsline {subsection}{\numberline {2.9.6}Expectation Maximization Alignment}{90}
+\contentsline {subsection}{\numberline {2.9.7}CB was designed to be an approximation to a mixture}{92}
+\contentsline {subsection}{\numberline {2.9.8}Conditional Distributions}{93}
+\contentsline {subsection}{\numberline {2.9.9} Detector energy thresholds, $E_c$}{95}
+\contentsline {section}{\numberline {2.10}Results Supplement}{97}
+\contentsline {subsection}{\numberline {2.10.1}Description of rank sum sampling distribution construction}{97}
+\contentsline {subsection}{\numberline {2.10.2}logodds ratio test of DC and DU positive hits}{97}
+\contentsline {subsection}{\numberline {2.10.3} Mutual Information between known class tags and the conditional detector's predictions of class tags}{99}
+\contentsline {section}{\numberline {2.11}Additional Experiment Supplement, Rerunning Model on CACATG Twist Motif}{102}
+\contentsline {subsection}{\numberline {2.11.1}ROC curve}{104}
+\contentsline {subsection}{\numberline {2.11.2} Mutual Information between loci classes $C$ and detector predictions of classes $P$}{105}
+\contentsline {subsection}{\numberline {2.11.3}Permutation test using ranksum statistic }{106}
+\contentsline {subsection}{\numberline {2.11.4}Entropy Bias}{112}
+\contentsline {chapter}{\numberline {Chapter 3}}{115}
+\contentsline {section}{\numberline {3.1} Model Background}{115}
+\contentsline {subsection}{\numberline {3.1.1} Fractional Occupancy of Morphogen Binding to DNA binding Site}{115}
+\contentsline {subsection}{\numberline {3.1.2} Fractional occupancy of CRMs containing multiple binding sites }{117}
+\contentsline {subsection}{\numberline {3.1.3}Segal's Hidden Markov Model}{118}
+\contentsline {subsection}{\numberline {3.1.4} Enumerating the configurations of a CRM sequence }{119}
+\contentsline {subsection}{\numberline {3.1.5}The configuration vector nomenclature}{120}
+\contentsline {subsection}{\numberline {3.1.6} An example of the hybrid configuration notation}{123}
+\contentsline {subsection}{\numberline {3.1.7} The pairwise interaction $\omega $ between bound factors}{124}
+\contentsline {subsection}{\numberline {3.1.8} Relating the number of mRNA transcripts to fractional occupancy of PolII }{128}
+\contentsline {subsection}{\numberline {3.1.9} Fractional occupancy of BTA }{129}
+\contentsline {subsection}{\numberline {3.1.10} Fractional occupancy of BTA from a binding reaction perspective }{131}
+\contentsline {subsection}{\numberline {3.1.11}Fractional occupancy of BTA in Cooperative Binding (CB) model in Xin He's GEMSTAT}{132}
+\contentsline {subsection}{\numberline {3.1.12}Fractional occupancy of BTA in Ay's model}{134}
+\contentsline {section}{\numberline {3.2} Data set }{138}
+\contentsline {subsection}{\numberline {3.2.1}Collection of data from DV network of Dorsal, Twist, and Snail targets in Neuroectoderm and Mesoderm, and PWMs}{143}
+\contentsline {section}{\numberline {3.3}Nonlinear regression model }{145}
+\contentsline {subsection}{\numberline {3.3.1} Putting the data parts and free parameters together to form the nonlinear model of BTA occupancy }{145}
+\contentsline {subsection}{\numberline {3.3.2}Free parameters to be fit}{145}
+\contentsline {section}{\numberline {3.4} Annotation model of binding sites}{147}
+\contentsline {subsection}{\numberline {3.4.1}Discovering the binding sites within the CRM}{147}
+\contentsline {subsection}{\numberline {3.4.2}Annotation Model of Binding Sites without a PWM threshold}{149}
+\contentsline {section}{\numberline {3.5}Model fitting}{154}
+\contentsline {subsection}{\numberline {3.5.1}Covariance matrix of fitted parameters}{156}
+\contentsline {subsection}{\numberline {3.5.2}The overdetermined and underdetermined problem}{159}
+\contentsline {section}{\numberline {3.6}Results and Discussion}{161}
+\contentsline {subsection}{\numberline {3.6.1}Best fit of parameters for data from Section3.2.1\hbox {}, Experiment 1}{161}
+\contentsline {subsection}{\numberline {3.6.2}Redesigning the parameters to be fit}{164}
+\contentsline {subsection}{\numberline {3.6.3} Analytic Jacobian }{166}
+\contentsline {subsection}{\numberline {3.6.4} Robustness analysis, Experiment 3 }{171}
+\contentsline {section}{\numberline {3.7}Conclusion}{177}
+\contentsline {chapter}{\textbf {Bibliography} \vspace {\baselineskip }}{180}

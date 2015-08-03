@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{pmid22320231}
 C.~Adami.
@@ -270,6 +270,12 @@ Terrell~L Hill.
   Equilibrium Systems}.
 \newblock New York: Springer-Verlag, 1985.
 
+\bibitem{hill1986introduction}
+T.L. Hill.
+\newblock {\em An Introduction to Statistical Thermodynamics}.
+\newblock Dover Books on Physics and Chemistry. New York : Dover Publications,
+  1986.
+
 \bibitem{hobson}
 A~Hobson.
 \newblock {\em {Concepts in Statistical Mechanics}}.
@@ -309,6 +315,11 @@ Jin Jiang and Michael Levine.
 \newblock Binding affinities and cooperative interactions with bhlh activators
   delimit threshold responses to the dorsal gradient morphogen.
 \newblock {\em Cell}, 72(5):741 -- 752, 1993.
+
+\bibitem{pmid1090005}
+M.~C. King and A.~C. Wilson.
+\newblock {{E}volution at two levels in humans and chimpanzees}.
+\newblock {\em Science}, 188(4184):107--116, Apr 1975.
 
 \bibitem{pmid1925551}
 D.~Kosman, Y.~T. Ip, M.~Levine, and K.~Arora.
