@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.14)  3 AUG 2015 17:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.14)  5 AUG 2015 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -502,54 +502,84 @@ e
 \tf@toc=\write3
 \openout3 = `PhD_Dissertation_Template.toc'.
 
- [5] (./PhD_Dissertation_Template.lot)
+ [5] [6]
+(./PhD_Dissertation_Template.lot)
 \tf@lot=\write4
 \openout4 = `PhD_Dissertation_Template.lot'.
 
-[6
+ [7
 
 
 
-] (./PhD_Dissertation_Template.lof [7
+] (./PhD_Dissertation_Template.lof [8
 
 
 
-] [8] [9])
+]
+[9] [10])
 \tf@lof=\write5
 \openout5 = `PhD_Dissertation_Template.lof'.
 
- [10] [11] (./phasespace.tex
+ [11] [12] (./phasespace.tex
 Chapter 1.
 [1
 
 
 ] [2] [3] [4] [5] [6] (./CK.tex) [7] [8]) (./bindingenergy.tex [9] [10]
 [11] [12] [13] [14] [15]) (./bindingenergy2.tex [16] [17] [18] [19] [20]
-[21] [22] [23] [24]) [25] (./BiologicalIntro.tex [26] [27] [28] [29] [30]
+[21] [22] [23] [24]) [25] (./BiologicalIntro.tex [26] [27] [28] [29]
+! Undefined control sequence.
+l.25 ...gap gene's interact (primarily like \texit
+                                                  {addition} of waves in a F...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Citation `pmid7579526' on page 31 undefined on input line 19.
+[30] [31]
+! Extra }, or forgotten \endgroup.
+l.29 ...fly in the section below on 'modularity'.}
+                                                  .
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[32]
+
+LaTeX Warning: Citation `pmid7579526' on page 33 undefined on input line 34.
 
 
-LaTeX Warning: Citation `wolpert' on page 31 undefined on input line 23.
+LaTeX Warning: Citation `wolpert' on page 33 undefined on input line 38.
 
-[31] [32] [33] [34]) (./CliffordAdami.tex [35]
+[33] [34] [35]
+
+LaTeX Warning: Citation `King' on page 36 undefined on input line 49.
+
+
+Overfull \vbox (0.10829pt too high) has occurred while \output is active []
+
+
+[36] [37] [38] [39]) (./CliffordAdami.tex [40]
 Chapter 2.
-[36
+[41
 
-] [37] [38] [39] [40]
+] [42] [43] [44] [45]
 Overfull \hbox (10.00615pt too wide) in paragraph at lines 58--58
 []\OT1/cmr/bx/n/14.4 Relation be-tween bio-phys-i-cal PWMs and evo-lu-tion-ary 
 PWMs 
  []
 
-[41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
-[56] [57] <plotcayatg.pdf, id=233, 401.44664pt x 154.62418pt>
+[46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60]
+[61] [62] <plotcayatg.pdf, id=251, 401.44664pt x 154.62418pt>
 File: plotcayatg.pdf Graphic file (type pdf)
 
 <use plotcayatg.pdf>
 Package pdftex.def Info: plotcayatg.pdf used on input line 214.
 (pdftex.def)             Requested size: 433.62pt x 167.01756pt.
- [58 <./plotcayatg.pdf>]
+ [63 <./plotcayatg.pdf>]
 
 LaTeX Warning: File `rsCAYATG30.eps' not found on input line 228.
 
@@ -561,7 +591,7 @@ Package epstopdf Info: Source file: <rsCAYATG30.eps>
 o.pdf rsCAYATG30.eps>
 (epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
-<rsCAYATG30-eps-converted-to.pdf, id=244, 518.93875pt x 416.55624pt>
+<rsCAYATG30-eps-converted-to.pdf, id=262, 518.93875pt x 416.55624pt>
 File: rsCAYATG30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use rsCAYATG30-eps-converted-to.pdf>
@@ -578,15 +608,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--230
 
  []
 
-[59] [60 <./rsCAYATG30-eps-converted-to.pdf>] [61] [62]
-<infopair.pdf, id=261, 544.0325pt x 234.8775pt>
+[64] [65 <./rsCAYATG30-eps-converted-to.pdf>] [66] [67]
+<infopair.pdf, id=279, 544.0325pt x 234.8775pt>
 File: infopair.pdf Graphic file (type pdf)
  <use infopair.pdf>
 Package pdftex.def Info: infopair.pdf used on input line 274.
 (pdftex.def)             Requested size: 433.62pt x 187.21771pt.
- [63]
-[64 <./infopair.pdf>] [65]
-<miclasses-new.pdf, id=319, 503.8825pt x 436.63126pt>
+ [68]
+[69 <./infopair.pdf>] [70]
+<miclasses-new.pdf, id=338, 503.8825pt x 436.63126pt>
 File: miclasses-new.pdf Graphic file (type pdf)
  <use miclasses-new.pdf>
 Package pdftex.def Info: miclasses-new.pdf used on input line 313.
@@ -601,21 +631,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--315
 
  []
 
-[66] [67 <./miclasses-new.pdf>] [68] [69] [70] [71] [72] [73] [74] [75]
-[76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90]
-[91] [92] [93] [94] [95] [96] [97] [98] [99] [100]
+[71] [72 <./miclasses-new.pdf>] [73] [74] [75] [76] [77] [78] [79] [80]
+[81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95]
+[96] [97] [98] [99] [100] [101] [102] [103] [104] [105]
 Overfull \hbox (3.14565pt too wide) in paragraph at lines 592--593
 \OT1/cmr/m/n/12 We re-peated our anal-y-sis of the known Dor-sal sites with a d
 if-fer-ent Twist mo-tif (5'-CACATG).
  []
 
-[101] <plotCACATG302015.pdf, id=483, 402.7848pt x 155.1396pt>
+[106] <plotCACATG302015.pdf, id=502, 402.7848pt x 155.1396pt>
 File: plotCACATG302015.pdf Graphic file (type pdf)
 
 <use plotCACATG302015.pdf>
 Package pdftex.def Info: plotCACATG302015.pdf used on input line 595.
 (pdftex.def)             Requested size: 433.62pt x 167.01563pt.
- [102 <./plotCACATG302015.pdf>] [103]
+ [107 <./plotCACATG302015.pdf>] [108]
 
 LaTeX Warning: File `rocenhaCACATG30.eps' not found on input line 619.
 
@@ -627,14 +657,14 @@ Package epstopdf Info: Source file: <rocenhaCACATG30.eps>
 ted-to.pdf rocenhaCACATG30.eps>
 (epstopdf)             \includegraphics on input line 619.
 Package epstopdf Info: Output file is already uptodate.
-<rocenhaCACATG30-eps-converted-to.pdf, id=498, 513.92pt x 403.5075pt>
+<rocenhaCACATG30-eps-converted-to.pdf, id=516, 513.92pt x 403.5075pt>
 File: rocenhaCACATG30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use rocenhaCACATG30-eps-converted-to.pdf>
 Package pdftex.def Info: rocenhaCACATG30-eps-converted-to.pdf used on input lin
 e 619.
 (pdftex.def)             Requested size: 361.34999pt x 283.72166pt.
- [104 <./rocenhaCACATG30-eps-converted-to.pdf>]
+ [109 <./rocenhaCACATG30-eps-converted-to.pdf>]
 
 LaTeX Warning: File `miclassesCACATG30.eps' not found on input line 629.
 
@@ -646,14 +676,14 @@ Package epstopdf Info: Source file: <miclassesCACATG30.eps>
 erted-to.pdf miclassesCACATG30.eps>
 (epstopdf)             \includegraphics on input line 629.
 Package epstopdf Info: Output file is already uptodate.
-<miclassesCACATG30-eps-converted-to.pdf, id=508, 506.89375pt x 400.49625pt>
+<miclassesCACATG30-eps-converted-to.pdf, id=526, 506.89375pt x 400.49625pt>
 File: miclassesCACATG30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use miclassesCACATG30-eps-converted-to.pdf>
 Package pdftex.def Info: miclassesCACATG30-eps-converted-to.pdf used on input l
 ine 629.
 (pdftex.def)             Requested size: 361.34999pt x 285.50932pt.
- [105 <./miclassesCACATG30-eps-converted-to.pdf>]
+ [110 <./miclassesCACATG30-eps-converted-to.pdf>]
 
 LaTeX Warning: File `rsCACATG30.eps' not found on input line 638.
 
@@ -665,7 +695,7 @@ Package epstopdf Info: Source file: <rsCACATG30.eps>
 o.pdf rsCACATG30.eps>
 (epstopdf)             \includegraphics on input line 638.
 Package epstopdf Info: Output file is already uptodate.
-<rsCACATG30-eps-converted-to.pdf, id=521, 517.935pt x 415.5525pt>
+<rsCACATG30-eps-converted-to.pdf, id=539, 517.935pt x 415.5525pt>
 File: rsCACATG30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use rsCACATG30-eps-converted-to.pdf>
@@ -677,7 +707,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 638--639
 
  []
 
-[106 <./rsCACATG30-eps-converted-to.pdf>] [107]
+[111 <./rsCACATG30-eps-converted-to.pdf>] [112]
 Package epstopdf Info: Source file: <entropyN100.eps>
 (epstopdf)                    date: 2015-07-07 12:20:04
 (epstopdf)                    size: 9068 bytes
@@ -689,23 +719,23 @@ to.pdf entropyN100.eps>
 (epstopdf)             \includegraphics on input line 669.
 Package epstopdf Info: Output file is already uptodate.
 
-<entropyN100-eps-converted-to.pdf, id=534, 410.53375pt x 309.155pt>
+<entropyN100-eps-converted-to.pdf, id=552, 410.53375pt x 309.155pt>
 File: entropyN100-eps-converted-to.pdf Graphic file (type pdf)
 
 <use entropyN100-eps-converted-to.pdf>
 Package pdftex.def Info: entropyN100-eps-converted-to.pdf used on input line 66
 9.
 (pdftex.def)             Requested size: 361.34999pt x 272.11383pt.
- [108] [109 <./entropyN100-eps-converted-to.pdf>] [110] [111]
+ [113] [114 <./entropyN100-eps-converted-to.pdf>] [115] [116]
 
 Package caption Warning: \label without proper \caption on input line 703.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `entropybias' on page 112 undefined on input line 699.
+LaTeX Warning: Reference `entropybias' on page 117 undefined on input line 699.
 
 
-[112]
+[117]
 
 LaTeX Warning: File `EntropyBiasCB_L9.eps' not found on input line 704.
 
@@ -717,17 +747,17 @@ Package epstopdf Info: Source file: <EntropyBiasCB_L9.eps>
 rted-to.pdf EntropyBiasCB_L9.eps>
 (epstopdf)             \includegraphics on input line 704.
 Package epstopdf Info: Output file is already uptodate.
-<EntropyBiasCB_L9-eps-converted-to.pdf, id=556, 410.53375pt x 309.155pt>
+<EntropyBiasCB_L9-eps-converted-to.pdf, id=574, 410.53375pt x 309.155pt>
 File: EntropyBiasCB_L9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EntropyBiasCB_L9-eps-converted-to.pdf>
 Package pdftex.def Info: EntropyBiasCB_L9-eps-converted-to.pdf used on input li
 ne 704.
 (pdftex.def)             Requested size: 361.34999pt x 272.11383pt.
-) (./Chapter3occupancy.tex [113]
-[114 <./EntropyBiasCB_L9-eps-converted-to.pdf>]
+) (./Chapter3occupancy.tex [118]
+[119 <./EntropyBiasCB_L9-eps-converted-to.pdf>]
 Chapter 3.
-(./model.tex [115
+(./model.tex [120
 
 ]
 
@@ -735,7 +765,7 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 40.
 
-[116] [117] <segalblandscape.png, id=582, 616.55344pt x 346.29375pt>
+[121] [122] <segalblandscape.png, id=600, 616.55344pt x 346.29375pt>
 File: segalblandscape.png Graphic file (type png)
 
 <use segalblandscape.png>
@@ -746,8 +776,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[118] [119 <./segalblandscape.png>] [120] [121] [122] [123]
-<configurationMatrixIb.png, id=602, 325.215pt x 295.85532pt>
+[123] [124 <./segalblandscape.png>] [125] [126] [127] [128]
+<configurationMatrixIb.png, id=620, 325.215pt x 295.85532pt>
 File: configurationMatrixIb.png Graphic file (type png)
 
 <use configurationMatrixIb.png>
@@ -758,8 +788,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-[124] [125 <./configurationMatrixIb.png (PNG copy)>]
-<rhoNEEs.png, id=609, 228.855pt x 78.2925pt>
+[129] [130 <./configurationMatrixIb.png (PNG copy)>]
+<rhoNEEs.png, id=627, 228.855pt x 78.2925pt>
 File: rhoNEEs.png Graphic file (type png)
  <use rhoNEEs.png>
 Package pdftex.def Info: rhoNEEs.png used on input line 126.
@@ -769,8 +799,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-[126 <./rhoNEEs.png>] [127]) (./model2.tex [128]
-<PlugandPlay.jpg, id=622, 941.5175pt x 385.44pt>
+[131 <./rhoNEEs.png>] [132]) (./model2.tex [133]
+<PlugandPlay.jpg, id=640, 941.5175pt x 385.44pt>
 File: PlugandPlay.jpg Graphic file (type jpg)
  <use PlugandPlay.jpg>
 Package pdftex.def Info: PlugandPlay.jpg used on input line 9.
@@ -780,21 +810,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[129 <./PlugandPlay.jpg>] [130] [131] [132] [133] [134] [135] [136] [137]
-[138] [139] [140] [141] [142] [143] [144] [145]
+[134 <./PlugandPlay.jpg>] [135] [136] [137] [138] [139] [140] [141] [142]
+[143] [144] [145] [146] [147] [148] [149] [150]
 Underfull \hbox (badness 10000) in paragraph at lines 288--290
 
  []
 
-[146] [147] [148] [149] [150] [151] [152] [153] [154] [155] [156] [157]
-[158] [159]
+[151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161] [162]
+[163] [164]
 Overfull \hbox (5.95575pt too wide) in paragraph at lines 464--465
 []\OT1/cmr/m/n/12 For ex-am-ple imag-ine one knows with cer-tainty two in-de-pe
 n-dent data points $(\OML/cmm/m/it/12 y[]; x[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12
  ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 y[]; x[]\OT1/cmr/m/n/12 )$
  []
 
-[160] [161] <DIb.pdf, id=728, 404.35135pt x 469.96309pt>
+[165] [166] <DIb.pdf, id=747, 404.35135pt x 469.96309pt>
 File: DIb.pdf Graphic file (type pdf)
  <use DIb.pdf>
 Package pdftex.def Info: DIb.pdf used on input line 494.
@@ -807,7 +837,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 494--495
 
 LaTeX Warning: Float too large for page by 65.05222pt on input line 496.
 
-[162] [163 <./DIb.pdf>] [164] [165] [166] [167] [168] [169] [170]
+[167] [168 <./DIb.pdf>] [169] [170] [171] [172] [173] [174] [175]
 Overfull \hbox (28.01828pt too wide) in paragraph at lines 642--643
 \OT1/cmr/m/n/12 ported catas-trophic loss of ex-pres-sion in the neu-roec-to-de
 rm, the con-struct la-belled $\OML/cmm/m/it/12 rho\OT1/cmr/m/n/12 2216\OML/cmm/
@@ -815,7 +845,7 @@ m/it/12 t\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 s
 \OT1/cmr/m/n/12 4\OML/cmm/m/it/12 a$\OT1/cmr/m/n/12 .
  []
 
-<DInosnail.pdf, id=766, 428.2761pt x 195.94331pt>
+<DInosnail.pdf, id=785, 428.2761pt x 195.94331pt>
 File: DInosnail.pdf Graphic file (type pdf)
  <use DInosnail.pdf>
 Package pdftex.def Info: DInosnail.pdf used on input line 646.
@@ -825,7 +855,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 646--647
 
  []
 
-<annNosnail.pdf, id=767, 590.34216pt x 581.28784pt>
+<annNosnail.pdf, id=786, 590.34216pt x 581.28784pt>
 File: annNosnail.pdf Graphic file (type pdf)
  <use annNosnail.pdf>
 Package pdftex.def Info: annNosnail.pdf used on input line 652.
@@ -835,8 +865,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 652--653
 
  []
 
-[171] [172 <./DInosnail.pdf>] [173 <./annNosnail.pdf>]
-<annb.pdf, id=792, 614.295pt x 794.97pt>
+[176] [177 <./DInosnail.pdf>] [178 <./annNosnail.pdf>]
+<annb.pdf, id=812, 614.295pt x 794.97pt>
 File: annb.pdf Graphic file (type pdf)
  <use annb.pdf>
 Package pdftex.def Info: annb.pdf used on input line 671.
@@ -846,7 +876,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 671--672
 
  []
 
-<annc.pdf, id=793, 614.295pt x 794.97pt>
+<annc.pdf, id=813, 614.295pt x 794.97pt>
 File: annc.pdf Graphic file (type pdf)
  <use annc.pdf>
 Package pdftex.def Info: annc.pdf used on input line 683.
@@ -856,13 +886,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 683--684
 
  []
 
-)) [174] [175 <./annb.pdf>] [176 <./annc.pdf>] [177] [178]
-(./PhD_Dissertation_Template.bbl [179] [180
+)) [179] [180 <./annb.pdf>] [181 <./annc.pdf>] [182] [183]
+(./PhD_Dissertation_Template.bbl [184] [185
 
-] [181
+] [186
 
-] [182] [183] [184] [185]
-[186] [187] [188]) [189] (./PhD_Dissertation_Template.aux)
+] [187] [188] [189] [190]
+[191] [192] [193]) [194] (./PhD_Dissertation_Template.aux)
 \snap@out=\write6
 \openout6 = `PhD_Dissertation_Template.dep'.
 
@@ -876,11 +906,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6904 strings out of 494985
- 103670 string characters out of 6180356
- 178369 words of memory out of 5000000
- 9930 multiletter control sequences out of 15000+600000
- 14497 words of font info for 50 fonts, out of 8000000 for 9000
+ 6906 strings out of 494985
+ 103692 string characters out of 6180356
+ 178374 words of memory out of 5000000
+ 9932 multiletter control sequences out of 15000+600000
+ 14856 words of font info for 51 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  51i,27n,44p,2862b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -902,10 +932,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on PhD_Dissertation_Template.pdf (200 pages, 2720507 bytes).
+Output written on PhD_Dissertation_Template.pdf (206 pages, 2729166 bytes).
 PDF statistics:
- 925 PDF objects out of 1000 (max. 8388607)
- 633 compressed objects within 7 object streams
+ 944 PDF objects out of 1000 (max. 8388607)
+ 646 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
