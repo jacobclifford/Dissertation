@@ -16,6 +16,11 @@ A.~Afek, J.~L. Schipper, J.~Horton, R.~Gordan, and D.~B. Lukatsky.
   recognition}.
 \newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 111(48):17140--17145, Dec 2014.
 
+\bibitem{Molbiocell}
+Bruce Alberts.
+\newblock {\em Molecular biology of the cell}.
+\newblock Garland Science, New York, 4th; 4. edition, 2002.
+
 \bibitem{pmid9169833}
 M.~I. Arnone and E.~H. Davidson.
 \newblock {{T}he hardwiring of development: organization and function of
@@ -224,6 +229,17 @@ B.~Georgi and A.~Schliep.
   weight matrices}.
 \newblock {\em Bioinformatics}, 22(14):e166--173, Jul 2006.
 
+\bibitem{devogilbert}
+Scott~F. Gilbert.
+\newblock {\em Developmental biology}.
+\newblock Sinauer Associates, Sunderland, Mass, 5th edition, 1997.
+
+\bibitem{ecodevo}
+Scott~F. Gilbert and David Epel.
+\newblock {\em Ecological developmental biology: integrating epigenetics,
+  medicine, and evolution}.
+\newblock Sinauer Associates, Sunderland, Mass, 2009.
+
 \bibitem{pmid17632062}
 T.~Gregor, D.~W. Tank, E.~F. Wieschaus, and W.~Bialek.
 \newblock {{P}robing the limits to positional information}.
@@ -390,6 +406,11 @@ M.~Markstein, R.~Zinzen, P.~Markstein, K.~P. Yee, A.~Erives, A.~Stathopoulos,
 \newblock {{A} regulatory code for neurogenic gene expression in the
   {D}rosophila embryo}.
 \newblock {\em Development}, 131:2387--2394, May 2004.
+
+\bibitem{maynard}
+John Maynard~Smith.
+\newblock {\em Evolutionary genetics}.
+\newblock Oxford University Press, New York; Oxford [Oxfordshire], 1989.
 
 \bibitem{pmid19372434}
 S.~H. Meijsing, M.~A. Pufall, A.~Y. So, D.~L. Bates, L.~Chen, and K.~R.
@@ -565,6 +586,12 @@ P.~H. von Hippel.
   transcriptional proteins with genome dna.
 \newblock In R.F.Goldberger, editor, {\em Biological Regulation and
   Development}, volume~1, pages 279--347. Plenum Publishing, New York, 1979.
+
+\bibitem{pmid7579526}
+L.~Wolpert.
+\newblock {{T}he evolutionary origin of development: cycles, patterning,
+  privilege and continuity}.
+\newblock {\em Dev. Suppl.}, pages 79--84, 1994.
 
 \bibitem{pmid12777501}
 G.~A. Wray, M.~W. Hahn, E.~Abouheif, J.~P. Balhoff, M.~Pizer, M.~V. Rockman,

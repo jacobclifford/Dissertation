@@ -1,46 +1,63 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PhD_Dissertation_Template.aux
+White space in argument---line 40 of file PhD_Dissertation_Template.aux
+ : \citation{One
+ :               must still be careful using just anatomical features for determining the topology of the tree}
+I'm skipping whatever remains of this command
+White space in argument---line 41 of file PhD_Dissertation_Template.aux
+ : \citation{as
+ :              mimics commonly seen in insect world in predator prey systems clearly demonstrate that anatomical features can be evolved independently. However}
+I'm skipping whatever remains of this command
+White space in argument---line 42 of file PhD_Dissertation_Template.aux
+ : \citation{internal
+ :                    anatomy structures like the coelom or the central nervous system are much stronger anatomical features for determining evolution}
+I'm skipping whatever remains of this command
+White space in argument---line 43 of file PhD_Dissertation_Template.aux
+ : \citation{since
+ :                 these features are very complex and much harder to evolve de novo.}
+I'm skipping whatever remains of this command
 The style file: plain.bst
 Database file #1: sample.bib
-You've used 101 entries,
+You've used 106 entries,
             2118 wiz_defined-function locations,
-            1083 strings with 20262 characters,
-and the built_in function-call counts, 35308 in all, are:
-= -- 3487
-> -- 1727
-< -- 8
-+ -- 682
-- -- 577
-* -- 2809
-:= -- 5955
-add.period$ -- 306
-call.type$ -- 101
-change.case$ -- 578
+            1109 strings with 20781 characters,
+and the built_in function-call counts, 36586 in all, are:
+= -- 3613
+> -- 1768
+< -- 9
++ -- 699
+- -- 589
+* -- 2870
+:= -- 6171
+add.period$ -- 321
+call.type$ -- 106
+change.case$ -- 597
 chr.to.int$ -- 0
-cite$ -- 101
-duplicate$ -- 1171
-empty$ -- 2679
-format.name$ -- 577
-if$ -- 7166
+cite$ -- 106
+duplicate$ -- 1237
+empty$ -- 2796
+format.name$ -- 589
+if$ -- 7445
 int.to.chr$ -- 0
-int.to.str$ -- 101
-missing$ -- 115
-newline$ -- 508
-num.names$ -- 205
-pop$ -- 482
+int.to.str$ -- 106
+missing$ -- 124
+newline$ -- 533
+num.names$ -- 215
+pop$ -- 513
 preamble$ -- 1
-purify$ -- 488
+purify$ -- 504
 quote$ -- 0
-skip$ -- 776
+skip$ -- 817
 stack$ -- 0
-substring$ -- 2615
-swap$ -- 142
-text.length$ -- 8
+substring$ -- 2664
+swap$ -- 154
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 374
+type$ -- 386
 warning$ -- 0
-while$ -- 351
-width$ -- 104
-write$ -- 1114
+while$ -- 364
+width$ -- 109
+write$ -- 1171
+(There were 4 error messages)
