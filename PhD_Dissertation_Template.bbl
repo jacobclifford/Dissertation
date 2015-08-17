@@ -181,6 +181,18 @@ R.~Durbin, S.~Eddy, A.~Krogh, and G.~Mitchison.
 \newblock {Bilogical sequence analysis}.
 \newblock {\em Cambridge Press}, 1998.
 
+\bibitem{pmid15318951}
+R.~C. Edgar.
+\newblock {{M}{U}{S}{C}{L}{E}: a multiple sequence alignment method with
+  reduced time and space complexity}.
+\newblock {\em BMC Bioinformatics}, 5:113, Aug 2004.
+
+\bibitem{pmid15034147}
+R.~C. Edgar.
+\newblock {{M}{U}{S}{C}{L}{E}: multiple sequence alignment with high accuracy
+  and high throughput}.
+\newblock {\em Nucleic Acids Res.}, 32(5):1792--1797, 2004.
+
 \bibitem{pmid15026577}
 A.~Erives and M.~Levine.
 \newblock {{C}oordinate enhancers share common organizational features in the

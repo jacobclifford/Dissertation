@@ -64,14 +64,14 @@ and the binding constant for the k-mer to the adsorbate is:
 K(S)=\prod_i^k K(S_i).
 \end{equation}
 
-  This complexity can be increased by considering a hieararchy of possible internal interactions, or cooperativity within the binding site, such that the top of the hierarchy has $4^k$ possible energies.  This hierarchy is explored commonly in the interdisciplinary literature through different probabilistic models of sequences. 
+  This complexity can be increased by considering a hierarchy of possible internal interactions, or cooperativity within the binding site, such that the top of the hierarchy has $4^k$ possible energies.  This hierarchy is explored commonly in the interdisciplinary literature through different probabilistic models of sequences. 
 
-In 1987, Berg and von-Hippel (BvH) introduce their evolutionary selection model of protein DNA regulatory sequences, which effectively unites the idea of the highly correlated binding problem to Multiple Sequence Alignment.  Staden, three years earlier, had introduced the idea of making a table to organize the count data from a MSA.  At the time, Multiple Sequence Alignment was an emerging field (Simith Waterman's local pairwise alignment was only invented 3 years earlier), Blast doesn't appear until 1990, and the first named Hidden Markov Model applied to sequences, according to Sean Eddy, is 1994.  The k-mer binding sites in the 1987 BvH paper, were modeled by what are called a Position Weight Matrices, PWMs, which would eventually be recognized as a trivial HMM in Eddy's text, see chapter 5, where the PWMs are called Position Specific Scoring Matrices, PSSMs.
+In 1987, Berg and von-Hippel (BvH) introduce their evolutionary selection model of protein DNA regulatory sequences, which effectively unites the idea of the highly correlated binding problem to Multiple Sequence Alignment.  Staden, three years earlier, had introduced the idea of making a table to organize the count data from a MSA.  At the time, Multiple Sequence Alignment was an emerging field (Simth Waterman's local pairwise alignment was only invented 3 years earlier), Blast doesn't appear until 1990, and the first named Hidden Markov Model applied to sequences, according to Sean Eddy, is 1994.  The k-mer binding sites in the 1987 BvH paper, were modeled by what are called a Position Weight Matrices, PWMs, which would eventually be recognized as a trivial HMM in Eddy's text, see chapter 5, where the PWMs are called Position Specific Scoring Matrices, PSSMs.
 
 
 
 \subsection{K-mers and PWM binding constants}
-We know that we can treat the binding of a protein to a k-mer using standard thermodnamics, for example we have:
+We know that we can treat the binding of a protein to a k-mer using standard thermodynamics, for example we have:
 \begin{equation}\label{}
   K_o = \frac{[PS_o]}{[P][S_o]} = \exp{-E_b/kt},
 \end{equation}
@@ -79,7 +79,7 @@ where the $o$ symbol indicates a 'reference'.  We can use the binding to highest
 \begin{equation}\label{}
   K(S) =K_o\exp{-E(S)/kt}
 \end{equation}
-Here we have treated the sequence muatations (or differences between S and $S_o$) as a perturbation from the reference.  Physically this is hard to imagine experimentally in real time for a bound protein-DNA system, as we're talking about changing just part of the genetic material bound to the protein while keeping in tack the bulk of the binding site.  However, since the end result of the process is 'path independent', it is irrelevant the method used to cause the perturbation, hence the perturbation may even be an evolutionary mutation of a binding site.
+Here we have treated the sequence mutations (or differences between S and $S_o$) as a perturbation from the reference.  Physically this is hard to imagine experimentally in real time for a bound protein-DNA system, as we're talking about changing just part of the genetic material bound to the protein while keeping in tack the bulk of the binding site.  However, since the end result of the process is 'path independent', it is irrelevant the method used to cause the perturbation, hence the perturbation may even be an evolutionary mutation of a binding site.
 
 Assuming that each position within the binding site is independent, we can then construct a table of all the single mutation perturbations away from the concensus, thereby allowing us to estimate binding energy for all possible k-mers.  This table contains the matrix elements of the so-called energy Position Weight Matrix, discussed more in Chapter 1, which is used in computational algorithms that 'search' for binding sites for transcription factors.
 \subsection{Single binding site protein systems in distinct environments c and u}
@@ -104,7 +104,6 @@ For example, there may be a sequence-sequence interaction between the particles 
 \end{equation}
 \\
 where we have introduced the energy terms from above that were from the environments, c and u. Here $y_{11}$ is an exponential factor that contains the cooperative energy w(
-S') that is function of the underlying sequence S', and is defined by our equation \eqref{y11}, and is further def
-ined on page 100 Hill for generalized binding site systems.  If there is a sequence-sequence interaction, then the binding Energies $E(S)^c, E(S)^u$ may be different, although it is not a necessary condition for a sequence-sequence interaction to manifest itself in this form.
+S') that is function of the underlying sequence S', and is defined by our equation \eqref{y11}, and is further defined on page 100 of Hill\cite{hill} for generalized binding site systems.  If there is a sequence-sequence interaction, then the binding energies $E(S)^c, E(S)^u$ may be different, although it is not a necessary condition for a sequence-sequence interaction to manifest itself in this form.
 
-An \textit{implicit} form of cooperativity at the sequence-sequence level is to just use $E(S)^c$ for the case that Dorsal binding site k-mer cooccurs with a Twist binding site k-mer.  This form contains the binding energy to the sequence along with a shift in the binding site energy due to the interaction with its cis-environment.  The shift being modeled as a Kullback Leibler divergenece between the cis-specific environment relative to the case that the case that the binding site is independent of its environment.
+An \textit{implicit} form of cooperativity at the sequence-sequence level is to just use $E(S)^c$ for the case that Dorsal binding site k-mer cooccurs with a Twist binding site k-mer.  This form contains the binding energy to the sequence along with a shift in the binding site energy due to the interaction with its cis-environment.  The shift being modeled as a Kullback Leibler divergence between the cis-specific environment relative to the case that the case that the binding site is independent of its environment.
