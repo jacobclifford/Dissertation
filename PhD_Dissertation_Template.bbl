@@ -96,6 +96,12 @@ Bishop.
 \newblock {\em Pattern Recognition and {Machine Learning}}, volume~1.
 \newblock Computer Science Press, Rockville, MD, 1985.
 
+\bibitem{pmid5160087}
+R.~J. Britten and E.~H. Davidson.
+\newblock {{R}epetitive and non-repetitive {D}{N}{A} sequences and a
+  speculation on the origins of evolutionary novelty}.
+\newblock {\em Q Rev Biol}, 46(2):111--138, Jun 1971.
+
 \bibitem{pmid14983022}
 C.~T. Brown and C.~G. Callan.
 \newblock {{E}volutionary comparisons suggest many novel c{A}{M}{P} response
@@ -321,6 +327,11 @@ Y.~T. Ip, R.~E. Park, D.~Kosman, E.~Bier, and M.~Levine.
   expression in the presumptive neuroectoderm of the {D}rosophila embryo}.
 \newblock {\em Genes Dev.}, 6:1728--1739, Sep 1992.
 
+\bibitem{pmid13718526}
+F.~JACOB and J.~MONOD.
+\newblock {{G}enetic regulatory mechanisms in the synthesis of proteins}.
+\newblock {\em J. Mol. Biol.}, 3:318--356, Jun 1961.
+
 \bibitem{Jain:1999:DCR:331499.331504}
 A.~K. Jain, M.~N. Murty, and P.~J. Flynn.
 \newblock Data clustering: A review.
@@ -394,6 +405,11 @@ Raphael~D. Levine and Myron Tribus, editors.
 \newblock {\em {The Maximum Entropy Formalism}}.
 \newblock MIT Press, Cambridge, MA, 1978.
 
+\bibitem{pmid103000}
+E.~B. Lewis.
+\newblock {{A} gene complex controlling segmentation in {D}rosophila}.
+\newblock {\em Nature}, 276(5688):565--570, Dec 1978.
+
 \bibitem{gadempmid19193149}
 L.~Li.
 \newblock {{G}{A}{D}{E}{M}: a genetic algorithm guided formation of spaced
@@ -423,6 +439,12 @@ M.~Markstein, R.~Zinzen, P.~Markstein, K.~P. Yee, A.~Erives, A.~Stathopoulos,
 John Maynard~Smith.
 \newblock {\em Evolutionary genetics}.
 \newblock Oxford University Press, New York; Oxford [Oxfordshire], 1989.
+
+\bibitem{pmid6323992}
+W.~McGinnis, M.~S. Levine, E.~Hafen, A.~Kuroiwa, and W.~J. Gehring.
+\newblock {{A} conserved {D}{N}{A} sequence in homoeotic genes of the
+  {D}rosophila {A}ntennapedia and bithorax complexes}.
+\newblock {\em Nature}, 308(5958):428--433, 1984.
 
 \bibitem{pmid19372434}
 S.~H. Meijsing, M.~A. Pufall, A.~Y. So, D.~L. Bates, L.~Chen, and K.~R.
@@ -460,6 +482,11 @@ Ilya Nemenman, Fariel Shafee, and William Bialek.
 \newblock Entropy and inference, revisited.
 \newblock In {\em Advances in Neural Information Processing Systems 14}, pages
   471--478. MIT Press, 2002.
+
+\bibitem{pmid6776413}
+C.~Nusslein-Volhard and E.~Wieschaus.
+\newblock {{M}utations affecting segment number and polarity in {D}rosophila}.
+\newblock {\em Nature}, 287(5785):795--801, Oct 1980.
 
 \bibitem{pmid22683811}
 D.~J. Obbard, J.~Maclennan, K.~W. Kim, A.~Rambaut, P.~M. O'Grady, and F.~M.
@@ -580,6 +607,11 @@ G.~D. Stormo and D.~S. Fields.
 G.~D. Stormo and Y.~Zhao.
 \newblock {{D}etermining the specificity of protein-{D}{N}{A} interactions}.
 \newblock {\em Nat. Rev. Genet.}, 11(11):751--760, Nov 2010.
+
+\bibitem{sturtevant}
+Alfred Sturtevant.
+\newblock {\em {The behavior of the chromosomes as studied through linkage.}}
+\newblock PhD thesis, Columbia University, 1914.
 
 \bibitem{pmid7774581}
 P.~Szymanski and M.~Levine.

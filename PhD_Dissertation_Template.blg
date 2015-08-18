@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PhD_Dissertation_Template.aux
 The style file: plain.bst
 Database file #1: sample.bib
-You've used 108 entries,
+You've used 114 entries,
             2118 wiz_defined-function locations,
-            1117 strings with 21017 characters,
-and the built_in function-call counts, 37146 in all, are:
-= -- 3671
-> -- 1782
+            1153 strings with 21864 characters,
+and the built_in function-call counts, 39068 in all, are:
+= -- 3870
+> -- 1863
 < -- 9
-+ -- 705
-- -- 593
-* -- 2910
-:= -- 6266
-add.period$ -- 327
-call.type$ -- 108
-change.case$ -- 605
++ -- 737
+- -- 619
+* -- 3063
+:= -- 6593
+add.period$ -- 345
+call.type$ -- 114
+change.case$ -- 635
 chr.to.int$ -- 0
-cite$ -- 108
-duplicate$ -- 1259
-empty$ -- 2847
-format.name$ -- 593
-if$ -- 7560
+cite$ -- 114
+duplicate$ -- 1323
+empty$ -- 2995
+format.name$ -- 619
+if$ -- 7945
 int.to.chr$ -- 0
-int.to.str$ -- 108
-missing$ -- 126
-newline$ -- 543
-num.names$ -- 219
-pop$ -- 517
+int.to.str$ -- 114
+missing$ -- 131
+newline$ -- 573
+num.names$ -- 231
+pop$ -- 537
 preamble$ -- 1
-purify$ -- 510
+purify$ -- 535
 quote$ -- 0
-skip$ -- 831
+skip$ -- 875
 stack$ -- 0
-substring$ -- 2714
-swap$ -- 156
+substring$ -- 2869
+swap$ -- 162
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 394
+type$ -- 418
 warning$ -- 0
-while$ -- 371
-width$ -- 111
-write$ -- 1193
+while$ -- 393
+width$ -- 117
+write$ -- 1259

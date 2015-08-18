@@ -2,7 +2,7 @@
   *{application}{TeX}     {1990/03/25 v3.x}
   *{format} {LaTeX2e}     {2011/06/27 v2.e}
   *{package}{snapshot}    {2002/03/05 v1.14}
-  *{class}  {msuphddissertation}{0000/00/00 v0.0}
+  *{class}  {msuphddissertation2}{0000/00/00 v0.0}
   *{class}  {book}        {2007/10/19 v1.4h}
   *{file}   {bk12.clo}    {2007/10/19 v1.4h}
   *{package}{ifthen}      {2001/05/26 v1.1c}
@@ -24,16 +24,16 @@
   *{file}   {pdftex.def}  {2011/05/27 v0.06d}
   *{package}{infwarerr}   {2010/04/08 v1.3}
   *{package}{ltxcmds}     {2011/11/09 v1.22}
+  *{package}{rotating}    {2009/03/28 v2.16a}
+  *{package}{graphicx}    {1999/02/16 v1.0f}
   *{package}{bm}          {2004/02/26 v1.1c}
   *{package}{amsmath}     {2013/01/14 v2.14}
   *{package}{amstext}     {2000/06/29 v2.01}
   *{package}{amsgen}      {1999/11/30 v2.0}
   *{package}{amsbsy}      {1999/11/29 v1.2d}
   *{package}{amsopn}      {1999/12/14 v2.01}
-  *{package}{graphicx}    {1999/02/16 v1.0f}
   *{package}{epsfig}      {1999/02/16 v1.7a}
   *{package}{longtable}   {2004/02/01 v4.11}
-  *{package}{rotating}    {2009/03/28 v2.16a}
   *{package}{listings}    {2013/08/26 v1.5b}
   *{package}{lstmisc}     {2013/08/26 v1.5b}
   *{file}   {listings.cfg}{2013/08/26 v1.5b}
@@ -57,33 +57,4 @@
   *{package}{kvsetkeys}   {2012/04/25 v1.16}
   *{package}{etexcmds}    {2011/02/16 v1.5}
   *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
-  *{file}   {phasespace.tex}{0000/00/00 v0.0}
-  *{file}   {CK.tex}      {0000/00/00 v0.0}
-  *{file}   {bindingenergy.tex}{0000/00/00 v0.0}
-  *{file}   {bindingenergy2.tex}{0000/00/00 v0.0}
-  *{file}   {BiologicalIntro.tex}{0000/00/00 v0.0}
-  *{file}   {CliffordAdami.tex}{0000/00/00 v0.0}
-  *{file}   {plotcayatg.pdf}{Graphic v0.0}
-  *{file}   {rsCAYATG30-eps-converted-to.pdf}{Graphic v0.0}
-  *{file}   {infopair.pdf}{Graphic v0.0}
-  *{file}   {miclasses-new.pdf}{Graphic v0.0}
-  *{file}   {plotCACATG302015.pdf}{Graphic v0.0}
-  *{file}   {rocenhaCACATG30-eps-converted-to.pdf}{Graphic v0.0}
-  *{file}   {miclassesCACATG30-eps-converted-to.pdf}{Graphic v0.0}
-  *{file}   {rsCACATG30-eps-converted-to.pdf}{Graphic v0.0}
-  *{file}   {entropyN100-eps-converted-to.pdf}{Graphic v0.0}
-  *{file}   {EntropyBiasCB_L9-eps-converted-to.pdf}{Graphic v0.0}
-  *{file}   {Chapter3occupancy.tex}{0000/00/00 v0.0}
-  *{file}   {model.tex}   {0000/00/00 v0.0}
-  *{file}   {segalblandscape.png}{Graphic v0.0}
-  *{file}   {configurationMatrixIb.png}{Graphic v0.0}
-  *{file}   {rhoNEEs.png} {Graphic v0.0}
-  *{file}   {model2.tex}  {0000/00/00 v0.0}
-  *{file}   {PlugandPlay.jpg}{Graphic v0.0}
-  *{file}   {DIb.pdf}     {Graphic v0.0}
-  *{file}   {DInosnail.pdf}{Graphic v0.0}
-  *{file}   {annNosnail.pdf}{Graphic v0.0}
-  *{file}   {annb.pdf}    {Graphic v0.0}
-  *{file}   {annc.pdf}    {Graphic v0.0}
-  *{file}   {PhD_Dissertation_Template.bbl}{0000/00/00 v0.0}
 }
