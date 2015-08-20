@@ -1,5 +1,5 @@
 
-\section*{Thermodyanmics}
+\section{Thermodyanmics}
 Our interest is not in isolated physical systems, as the M particle system above, rather we are interested in closed (energy is exchangeable, \textit{but} particles are not exchangeable) and open (energy is exchangeable, \textit{and} particles are exchangeable) systems.  The Victorian founders of the field of open and closed systems, of thermodynamics, were contemporaries with Charles Darwin, which is very fitting seeing that their insights into heat and particle exchange (a form of work) supplies the essential mechanics to describe biological systems.
 
 Conservation of energy for isolated systems is a consequence of Newton's second law. A more interesting statement is that the energy of a closed system in equilibrium can not spontaneously change, this is the statement of the first law of thermodynamics.  Hence we must do work or heat the system to change its internal energy\footnote{The Clausius convention for the form of the first law: $dU = q -w =$ heat supplied to the system ($q$) - work done by the system ($w$)}. 
@@ -18,7 +18,7 @@ Conservation of energy for isolated systems is a consequence of Newton's second 
 %
 %  These transformations are critical for solvent-solute -solute systems.  For example the nucleoplasm-genome-protein systems, where the 'nucleoplasm' is the biomaterial and water that surrounds the genome, and the 'genome-protein' or binding site - protein can be seen as a solute-solute interaction.  
   
-  We will think of binding sites interacting with proteins as solute solute interactions that are occurring in a solvent.  The nucleoplasm represents a very complicated solvent, a mixture in the liquid phase of all sorts of complicated biopolymers and water molecules and the many other inorganic substances in a biological nucleus.  Of course, the protein that must find a specific binding site within the genome, must compete with all the other molecules in the nucleus for occupying any point in the spatial grid of the nucleus.  However, again, my aim is to represent and describe the recognition of a particular binding site by a protein, hence I would like to make progress specifically on the recognition problem, without being hampered by the solvent properties.  Hence, I will introduce an argument in T.Hill's text\cite{hill}, and also discussed by Landua\cite{landaumech}, the so-called 'dilute limit'.  This will allow us to rigorously account for the fact that the protein and DNA are embedded in a phyiological solvent, while, to a large degree, hides the solvent molecular details and the solvent-solute details by introducing an effective molecular partition function $q$, which will be similar to Eq.\ref{idealgas} in two ways: first because the momentum will not be of interest and second because we will be taking ratio of two types of well-defined systems to define the 'effective' partition function.  However, $q$ is different than \ref{idealgas} in that a molecular partition function is about one type of particle (one molecule), where for large systems like a gas of n identical and distinguishable molecules, one commonly denotes the partition function as $Q=q^n$, hence lowercase is to denote 'one molecule', and capital case to denote large systems.  By defining the effective partition function we will then proceed to the relevant problem of the solute-solute (protein-binding site) interaction, where the physiological environment (solvent) will be accounted for in both the DNA and protein by defining an effective partition funtion for each solute (e.g. $q_{DNA}$ and $q_{pro}$).
+  We will think of binding sites interacting with proteins as solute solute interactions that are occurring in a solvent.  The nucleoplasm represents a very complicated solvent, a mixture in the liquid phase of all sorts of complicated biopolymers and water molecules and the many other inorganic substances in a biological nucleus.  Of course, the protein that must find a specific binding site within the genome, must compete with all the other molecules in the nucleus for occupying any point in the spatial grid of the nucleus.  However, again, my aim is to represent and describe the recognition of a particular binding site by a protein, hence I would like to make progress specifically on the recognition problem, without being hampered by the solvent properties.  Hence, I will introduce an argument in T.Hill's text\cite{hill}, and also discussed by Landua\cite{landaumech}, the so-called 'dilute limit'.  This will allow us to rigorously account for the fact that the protein and DNA are embedded in a phyiological solvent, while, to a large degree, hides the solvent molecular details and the solvent-solute details by introducing an effective molecular partition function $q$, which will be similar to Eq.\ref{idealgasq} in two ways: first because the momentum will not be of interest and second because we will be taking ratio of two types of well-defined systems to define the 'effective' partition function.  However, $q$ is different than \ref{idealgasq} in that a molecular partition function is about one type of particle (one molecule), where for large systems like a gas of n identical and distinguishable molecules, one commonly denotes the partition function as $Q=q^n$, hence lowercase is to denote 'one molecule', and capital case to denote large systems.  By defining the effective partition function we will then proceed to the relevant problem of the solute-solute (protein-binding site) interaction, where the physiological environment (solvent) will be accounted for in both the DNA and protein by defining an effective partition funtion for each solute (e.g. $q_{DNA}$ and $q_{pro}$).
  
   
   \emph{Solvent Solute, dilute limit}
@@ -38,7 +38,7 @@ As $\lim_{\lambda_{2} \to +0}$, we find that:
 \begin{equation}\label{averageN}
   < N_2 > = \frac{ \Psi_1}{\Psi_0} \lambda_2
 \end{equation}
-Hence, just as in Eq.\ref{idealgas} where we defined the effective partition function, $q$, the configuration integral, here again we will define an effective partition function for a solution system.  Hence, for a solute immersed in a solvent we will define the effective partition function for the solute as:
+Hence, just as in Eq.\ref{idealgasq} where we defined the effective partition function, $q$, the configuration integral, here again we will define an effective partition function for a solution system.  Hence, for a solute immersed in a solvent we will define the effective partition function for the solute as:
 \begin{equation}\label{qref}
   q(N,V,T) \equiv \frac{ \Psi_1(\mu_1,N_2=1,V,T) }{\Psi_0(\mu_1,N_2=0,V,T)}
 \end{equation}
@@ -110,7 +110,7 @@ now if we group common standard states and concentrations, and rearrange:
 \end{equation}
 
 
-Here the subscript e on the concentrations is to remind us that the concentrations are no longer a variable, but fixed by the equilibrium constraint.  Our chemical potentials are linked to the molecular energies through the logarithm of the dilute limit partition function of Eq.\ref{q2} (if the system is in equilibrium, hence we also have:
+Here the subscript e on the concentrations is to remind us that the concentrations are no longer a variable, but fixed by the equilibrium constraint, and we assume units of $kT=1$.  Our chemical potentials are linked to the molecular energies through the logarithm of the dilute limit partition function of Eq.\ref{q2} (if the system is in equilibrium, hence we also have:
 \begin{equation}\label{effm}
   \mu_{SP}^o - \mu_S^o - \mu_P^o = \ln( \frac{ q_{SP} } { q_S q_P })
 \end{equation}
@@ -124,7 +124,11 @@ Here, the binding energy, $E_b$ is equal to the work done to separate the bound 
 Linking the statistical mechanic's partition functions to the thermodynamic binding constant we have:
 
 \begin{equation}\label{k}
- K = \exp{-\frac{E_b}{kT} }.
+ K = \exp{-\frac{E_b}{kT} },
+\end{equation}
+where the binding constant is defined by:
+\begin{equation}\label{k}
+K=\frac{ [SP]_e }{[S]_e [P]_e}.
 \end{equation}
    Experimentally this can be determined by binding titration curves, which allow one to transform the binding constant as a function of the fractional occupancy.  As a consistency check, we see that if the binding energy is zero (no interaction between sequence and protein, then the concentration of the bound complex is just as likely as the unbound complex, while complete binding requires the binding energy to be negative infinity, and for particles that repel such that the bound complex never forms the binding energy must be plus infinity), then we have:
 \begin{equation}\label{}

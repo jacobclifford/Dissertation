@@ -1,7 +1,7 @@
 
- \section{ Model Background}
+ \section{Model Background}
 
- \subsection{ Fractional Occupancy of Morphogen Binding to DNA binding Site}
+ \subsection{Fractional Occupancy of Morphogen Binding to DNA binding Site}
 
 The binding process is modeled using a first order rate law, where M is morphogen and B is the Binding site of DNA, and MB is the complex:
 \begin{equation}\label{}
@@ -34,7 +34,7 @@ which can be rearranged in terms of the concentrations (i.e. [MB] and [B]):
 \end{equation}
 Again, $K_a$ is the association constant of the morphogen, $M$, to the binding site $B$.  Previously we have denoted this constant as $K(S)$, where $S$ is a DNA sequence that functions as a binding site for the morphogen. 
 
-\subsection{ Fractional occupancy of CRMs containing multiple binding sites }
+\subsection{Fractional occupancy of CRMs containing multiple binding sites }
 
 
 Given that most regulatory sequences have multiple binding sites for multiple different morphogens one has a master equation governing the binding process, a set of coupled differential equations.  Here, again, we will assume the binding process has equilibrated, and hence we simply must enumerate the states (configurations of bound and unbound sites) of the many-binding site system.  For independent binding this is simply multinomial process (where the 'multi' aspect accounts for the different types of transcription factors binding to the CRM).  For example, for a single type of transcription factor binding, to n binding sites within a CRM, one has a binomial process governed by the partition function $(1+q)^n$, as discussed in the introduction of the dissertation.  Hence, the probability of k bound factors is simply $P(k) =  {n \choose k}p^k(1-p)^{n-k}$, where $p$ is a Boltzmann probability for a single bound site, and $p^k(1-p)^{n-k}$ is joint probability of a particular binding configuration (\emph{which} configuration is irrelevant for the case of identical sites binding the same morphogen).  However, for the case of dependencies between the sites, we can not factorize the joint distribution over binding sites (\textit{i.e.} $(1+q)^n$ is a factorization of the partition function, and hence factorization of the joint distribution).  Furthermore, for the case where the sites are not identical, such as in CRMs that have heterogenous binding sites due to each transcription factor's DNA sequence specificity, we do not simply have one Boltzmann probability $p$ for all the sites.  Hence, each site will need a distinguishing notation.  Furthermore, the number of sites $n$ is not always known.  Hence, in some cases, one must discover $n$ sites, by 'annotating' the CRM which defines the coordinates of each transcription factor's sites and their corresponding energy.  In the next three sections we will describe a notation that is a mixture of notations used for Hidden Markov Models (HMM) and Lattice Gases (Ising Models) that is hybridization of the notations from Segal et.al.\cite{pmid18172436} (HMM notation) and the notation used by both Xin He et.al.\cite{pmid20862354}\cite{pmid19956545}.  Hereafter these notations will simply be referred to as Segal's notation or Xin's notation.  The reason for the hybridization is because our model was originally based on the Segal's paper, which latter was merged with work from Xin He (who collaborated with others in Saurabh Sinha's lab and S. Zhong's lab), by usng Xin's GEMSTAT and STAP C++ programs as libraries for implementation of our model.
@@ -50,7 +50,7 @@ Given that most regulatory sequences have multiple binding sites for multiple di
   \caption{Widom, Segal Nature Review Genetics; "motif" denotes path through the PWM\cite{pmid19506578}}\label{sb}
 \end{figure}
 The partition function can be calculated by recursively moving through the matrix elements, in a way that is similar in spirit to standard algorithms of multiple sequence alignment\cite{BSA}, where we can think of each configuration as a possible way to 'align' each motif (PWM) to the CRM.  The variant of HMM's forward algorithm approach used by Segal for computing the partition function of all paths (configurations) is discussed in his supplementary material. 
-\subsection{ Enumerating the configurations of a CRM sequence }
+\subsection{Enumerating the configurations of a CRM sequence }
 
  Here we will introduce a notation for the weights of many-binding site systems.  First, let $P(c)$, be the probability of a particular configuration (c) occurring
 \begin{equation}\label{mbody}
@@ -84,7 +84,7 @@ W(c)=W(\sigma)&=& W(\sigma_1,...,\sigma_{N} , \sigma_{1,1},..,\sigma_{N,N})\\
 Here, $ln(q_i)$, is the free energy of binding to the $i$th site, and $\sigma_{i}$, denotes the occupancy of the $i$th 'site', and $\sigma_{ij}$ denotes the pairwise energetic interaction $ln(\omega_{ij})$ between site $i$ and site $j$\footnote{Recall for the canonical ensemble, where H is the Hamiltonian of a configuration we would have  $W(c) = \exp{-H(c)/kT}$ being a simple Boltzmann factor, where k$T$ is the thermal energy.  We are working in a grand canonical ensemble, which allows for particle energy as well as energy exchange, hence, the total energy of the configuration is a function of the Hamiltonian and the chemical potential of the factors, which causes concentration of the transcription factors to influence the total energy of a configuration, hence the energy is a thermodynamic free energy}.  But what type of transcription factor is binding to the $i$th site?  In Xin's notation, this is not decipherable.  Rather, in their notation, each 'site' corresponds to a particular factor.  But we simply don't know which factor.  Hence in Xin's notation it's possible that two distinct 'sites' occupy the exact same locus.  Hence we don't know if two sites are overlapping.  Overlapping sites can not both be bound, since all thermodynamic model's for occupancy of transcription factors use 'hard sphere potentials', there's steric hinderance prohibiting two transcription factors to occupy the same space along the CRM.).  Hence, in Xin's notation, one is supposed to be cognizant that bound overlapping sites will set that configuration's weight to zero. 
 
 We have used a hybrid notation in Eq.\ref{wc}, where it's not that our CRM has N fixed binding sites (like in Xin's notation) that are each bound or unbound.  Rather, the weight $W(c)$ displays $N$ bound sites from a configuration c.  Hence, in our notation $N$ is a variable in the binding configuration space, while in Xin's notation, N is the fixed number of sites.  In Xin's notation, advantageously, they can put a bound on configuration space as $2^N$, this is an upper bound because overlapping sites will reduce the total number of configurations, furthermore this overcounts the number of unbound states, since a loci's sequence that match for multiple factors - say m factors- would consider $2^m/2-1$ too many configurations, since the loci is actually only unbound in one possible way\footnote{Xin's GEMSTAT computes the correct weights and partition function, it's just the estimate on the configuration space that is a bound.}.   
-\subsection{ An example of the hybrid configuration notation} 
+\subsection{An example of the hybrid configuration notation} 
 For an example of the hybrid notation, consider all possible positions of the CRM as a binding site, as Segal would, and multiple morphogens binding to the same site ( same position within the sequence, same locus ); then the configuration vector (c) can be written in terms of Xin's indicator variables (similar to Ising models).  
  
 For a length L CRM and for 3 transcription factor types (like Dorsal,Twist, and Snail) we have in Xin's notation $N =4*L$, where the factor of four is due to the four types of transcription factors at each locus - namely: bound by Dorsal, Twist, or Snail or 'background' (background is a type of pseudoparticle that fills the unbound state)).\footnote{As pointed out by Segal in his supplement, this problem may seem computationally infeasible, since the number of configurations for L=500 is of size $2^{4*500}$, but due to the forward algorithm it is possible.  Here the number of binding sites, $N$, neglects edge effects of k-mers requiring length k binding site sequences.  Hence, the calculation of the number of configurations is only a bound on the cardinaility of the set of configurations, where the bound is further affected by the neglect of overlapping sites that cause many configurations to be unaccessible (against the rules). } 
@@ -113,7 +113,7 @@ Now that we have defined our configuration notation, and described the weight of
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55ab
 
-\subsection{ The pairwise interaction $\omega$ between bound factors}
+\subsection{The pairwise interaction $\omega$ between bound factors}
 %
 Transcription factors often interact with each other, causing certain configurations to be more likely by decreasing the total energy of the configurations where interacting factors are jointly bound, thereby increasing the weight of those configurations.  This observation, was the physical basis behind A. Hill's famous Hemoglobin Oxygen binding model.  
 
@@ -154,7 +154,7 @@ Here bin b, is all interactions where two bound sites are separated by 41-50 bas
 
 Our aim is to fit the biochemcial parameters that tune the probability of configurations that occur in live embryos.  However, we simply don't have such detailed biochemical experiments.  Hence, we use the mRNA of the target genes regulated by Dorsal Twist and Snail as a readout of what binding configurations are likely occurring, and wheter certain configurations have strong linkage (pairwise interactions) between certain bound factors.  Hence, we must infer from mRNA data, what is occuring at the DNA binding level; an expression to sequence model.  In the next section will describe a ubiquitous and obvious assumption, mRNA is caused by PolII, hence PolII binding is a proxy for gene expression.
  
-\subsection{ Relating the number of mRNA transcripts to fractional occupancy of PolII }
+\subsection{Relating the number of mRNA transcripts to fractional occupancy of PolII }
 The amount of transcription that occurs at a gene locus is encoded in two segments of DNA sequence; first, the basal promoter that binds the Basal Transcription Apparatus (BTA), which is a massive complex of many proteins including PolII; second, and most important, the CRM that binds the morphogens or distal transcription factors (such as Dorsal) that modify and remodel the chromatin state and possibly have direct linkage with the BTA.  Hence the number of mRNA transcripts can be modeled as simply a linear relationship between the number of mRNA and the fractional occupancy of a promoter sequence (which we assume includes the CRM sequence).
 \begin{equation}\label{}
      \left< N_{mRNA} \right>  \propto f_{BTA}.

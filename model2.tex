@@ -1,5 +1,5 @@
 
-\subsection{ Fractional occupancy of BTA }
+\subsection{Fractional occupancy of BTA }
 %\begin{equation}\label{}
 %     f_{BTA} = w_{0} + \sum_{m} \left< n_{m} \right>|_{t}  w_{m}
 %\end{equation}
@@ -7,7 +7,7 @@
 \begin{figure}
   % Requires \usepackage{graphicx}
   \includegraphics[width=1\textwidth]{PlugandPlay}\\
-  \caption{}\label{PlugandPlay}
+  \caption{Diagram of the components of fractional occupancy model, along with the parameters to bit through expression data (estimates of the mRNA output of the gene bound by the BTA and estimates of input morphogen concentrations).}\label{PlugandPlay}
 \end{figure}
 
 We can gain more physical insight into the problem by thinking of mechanisms of how BTA's occupancy is a function of the morphogen occupancy.  In Figure \ref{PlugandPlay} we see that when the morphogen's are bound they have an activation or repression domain, which communicates with the BTA, for our case this communication may be thought of as the complex process of changing the epigenitic state of the chromosome, by coactivators (histone modifiers, nucleosome remodelers) binding to the morphogen.  The binding energy of this domain ($w_m$) on the mophogen can be related to the binding energy of the BTA:
@@ -33,7 +33,7 @@ where the occupancy of the BTA is related to the theoretical model of average mo
 % an illustration of $<n_m>$ is given in the following slides:
 %\includepdf[pages=-]{gropmeet1206ina.pdf}
 
-\subsection{ Fractional occupancy of BTA from a binding reaction perspective }
+\subsection{Fractional occupancy of BTA from a binding reaction perspective }
 Let P = PolII concentration(this is the best known protein in the Basal Transcription Apparatus, but technically P is the concentration of the BTA), D = DNA (or basal promoter, i.e. TATA box, and binding sites for TF2B etc..), C = complex (PD).  We assume the binding process is in equilibrium (different timescale than morphogen binding).
 \begin{equation}\label{}
     P + D \Leftrightarrow C
@@ -137,7 +137,7 @@ Now we simply want this denominator to be of the form $1+\exp{(-x')}$, which wou
  T(x) = \frac{1}{1+ \frac{\exp{(-x)}+q}{1-q}}
  \end{equation}
  Now, it appears that the odds for BTA occupancy from Ay's model: $\frac{\exp{(-x)}+q}{(1-q)}$ must be equal to the odds for BTA occupancy from Segal's model: $e^{f(c)}$.  Setting the log odds equal to each other may allow for some deduction on what certain parameters 'mean' in terms of the two models, which would then be able to be traced to our model.
- \section{ Data set }
+ \section{Data set }
 
 We would like to know the key biochemical parameters that are utilized by Dorsal, Twist, and Snail as they regulate the genes that pattern the Dorsal Ventral axis of early development by producing expression profiles, a list of mRNA counts for each position along the DV axis.  Under standard nonlinear regression, one could imagine an experiment where one measures the response (the dependent variable) to systematic variations of the inputs (independent variables), these measurements can then be used to fit a nonlinear regression model, where the fit parameters are our biochemical parameters (such as the binding constants).  Here the response, is the gene expression levels, and the inputs are the morphogen and CRM information (described further in the data section).  This is a massive amount of experimentation in order to fit a nonlinear model.  However, following the interpretation of Segal et.al.\cite{pmid18172436}, which in a sense, is a reinterpretation of Ed Lewis' model of homeogenes, and further refined by Zinzen et al.\cite{pmid16750631}, we can treat \emph{coordinately regulated} genes as if they were the \emph{same} gene, just under different inputs.  
 
@@ -256,7 +256,7 @@ The Dorsal, Twist, and Snail profiles were coordinated with the target gene prof
 The Dorsal PWM is the DC and DU form chapter 2 of this dissertation.  The Twist motif used was 5'-CAYATG, and the Snail motif used was 5'-CACCTG.  The Twist and Snail motifs were transformed to energy PWMs too.  Hence, the energy levels of the TWist and Snail are not accurate, but, due to the threshold free algorithm for annotation, the accuracy is not as central a question as it would be for a threshold based approach.
 
 \section{Nonlinear regression model }
-\subsection{ Putting the data parts and free parameters together to form the nonlinear model of BTA occupancy }
+\subsection{Putting the data parts and free parameters together to form the nonlinear model of BTA occupancy }
 Our nonlinear regression model is simply the fractional occupancy of the BTA, which is a function over the high dimensional space of input CRMS and position along the DV axis of the embryo:
 \begin{equation}\label{modelz}
 f( S,z ) =  \frac{1}{1 + \exp{ -(w_{0} + \sum_{m}  \  \left< n_m(z) \right> \ \ \ w_{m}})},
@@ -293,7 +293,7 @@ For repressors (like Snail) that have 'quenching' interaction, $\omega$ is in th
 Lastly, $\overrightarrow{w}$, contains a post binding constant for each transcription factor.  These parameters represent the interaction of the bound transcription factor with the BTA.  Each transcription factor has an associated $w_{tf}$ factor, for example, see figure.  These factors, in a sense, represent the domain of the transcripion factor that interacts with the BTA.  However, this interpretation is a controversial; as transcription factors recruit histone modifiers and remodelers, which change the epigenetic state of the chromatin, and in this way they affect transcription, and hence BTA binding, so the interaction isn't necessarily due to the protein 'touching' or binding to the BTA.  
   
   
-  \section{ Annotation model of binding sites}
+  \section{Annotation model of binding sites}
 \subsection{Discovering the binding sites within the CRM}
 The CRM sequence space of all possible CRMs of length 500 is of dimension $4^{500}$.  Segal only had about 40 sequences available to train his model, which seems small with respect to a possibly \emph{ideal} data set that would contain all $4^{500}$ CRM sequences $\textbf{S}$ of length 500 along with each CRM's response $\textbf{E}$ at each position along the DV axis.  Of course, most of those $\textbf{S}$ sequences do not respond to Dorsal Twist and Snail morphogens, and hence, a MSE (Mean Square Error) objective function under an ideal data set would be overwhelmed by Negative data, visible by the 'reduced Chi square', which  is the SE (Squared Error) divided by the number of degrees of freedom $4^{500} * m - p$ (where m is the number of positions along the axis, and p is the number of parameters to be fit).  In reality, what I have called an \emph{ideal} data set is NOT ideal at all.  Nor is a random sampling of the $4^{500}$ sequences, since the prevalence of functional (CRMS that form a usable pattern by the organism) is very rare.  Hence, an approach that concentrates on known Positive CRMs seems to make sense (endogenous or human designed).
 
@@ -469,7 +469,7 @@ For example imagine one knows with certainty two independent data points $(y_1, 
 \frac{\partial{f(x,\beta_1+\beta_2)}}{\partial \beta_2} = x \exp^{(\beta_1 +\beta_2)x}
 \end{equation}
 These two equations \emph{should} span parameter space, but the two equations are not independent, they are identical, hence they (or one of them (which ever one you like)) spans a one dimensional line in parameter space.
-\section{Results and Discussion}
+\section{Results}
 \subsection{Best fit of parameters for data from Section\ref{DVdata}, Experiment 1}
 
 We fit the data from \ref{DVdata} using the model from Equation \ref{modelz}, where the $\chi^2$ was defined as:
@@ -492,9 +492,9 @@ In the profiles in Figure \ref{roughfit} we set the model parameter $w_0 =5$ (as
 
 \begin{figure}
   \includegraphics[width=1\textwidth]{DIb.pdf}\\
-  \caption{the legend is in the upper right corner of the table, denoting the Observed profiles ( $E_t(z)$ ) as red, the model predictions as green along with the header above each figure denoting the CRM (gene target) in green, and the Dorsal morphogen profile  ( $E_{Dl}(z)$ ) as dotted blue curve.  The correlation coefficient between the observed pattern and the predicted pattern is denoted as CC for each gene (which is at most 'one'), and also the squared error between the observed pattern and predicted pattern is denoted as SE for each gene (where each gene had 40 positions, z, along the DV axis (i.e. SE is at most 40).  The Snail profile is uniform from positions 0 to 8, where it is 'on' (at a value of 'one') and Snail is off from positions 9 to 40 along the axis, and the Twist gradient (profile) was replicated as the Dorsal gradient. }\label{roughfit}
+  \caption{the legend is in the upper right corner of the table, denoting the Observed profiles ( $E_t(z)$ ) as red, the model predictions as green along with the header above each figure denoting the CRM (gene target) in green, and the Dorsal morphogen profile  ( $E_{Dl}(z)$ ) as dotted blue curve. }\label{roughfit}
 \end{figure}
-
+  The correlation coefficient between the observed pattern and the predicted pattern is denoted as CC for each gene (which is at most 'one'), and also the squared error between the observed pattern and predicted pattern is denoted as SE for each gene (where each gene had 40 positions, z, along the DV axis (i.e. SE is at most 40).  The Snail profile is uniform from positions 0 to 8, where it is 'on' (at a value of 'one') and Snail is off from positions 9 to 40 along the axis, and the Twist gradient (profile) was replicated as the Dorsal gradient.
 \newpage
 
 %\begin{table}
@@ -521,7 +521,7 @@ In the profiles in Figure \ref{roughfit} we set the model parameter $w_0 =5$ (as
 In order to better estimate the errors of the parameters for our model we aimed to obtain a full column rank Hessian (regardless of whether the Hessian was positive definite).  We analysed the analytic derivative of our nonlinear model with respect to each parameter $\beta_i$, and checked if other parameters occur in the result (indicating dependencies between parameters).  If possible, parameters that do depend on one another were grouped to form just one parameter\cite{beck}.  Furthermore, certain regions of the Data space (such as certain positions in the embryo (like the dorsal ectoderm, where none of our genes are active) may be very insensitive to our parameters (causing small values of the Jacobian for these data points, however this does not appear to affect the Hessian of the $\chi^2$, since the analytic Hessian, $\mathcal H$ of the $\chi^2$ is exactly equal to $J^TJ+G$, where G is a matrix of second derivatives over the model\footnote{The analytic Hesssian in exact form is  $\mathcal H=\frac{\partial^2{\chi^2}}{\partial{\mathbf{\beta}}\partial{\mathbf{\beta}}} = J^TJ + \frac{\partial^2{f}}{\partial{\mathbf{\beta}}\partial{\mathbf{\beta}}} = J^TJ +G$, where G is matrix with second derivative elements of the nonlinear model f (the fractional occupancy of the BTA) over the model parameters (for example, see equation A.4c page 482 of Beck\cite{beck}).  In the case that G's Frobenius norm is nearly zero (the elements of G are nearly zero), then we have $\mathcal H=J^TJ$, which is why with certain data sets and experiments, it is possible to estimate the covariance matrix of parameters based on Jacobian alone.  $J^TJ$ for the case of one free parameter is just a dot product (i.e. the Jacobian is just a vector of size n x 1, where n is the number of data points), which will be insensitive to data points that were uninformative for parameter estimation (they're just adding a term zero to the dot product).  Hence, it seems reasonable that uninformative data (data where the model is insensitive, such as Dorsal ectoderm regions of the embryo, where none of our CRMs are active) will not cause harm to model fitting.}.  
 
 %}.  Hence inverting the Hessian in the case that G is small (which it is for cases like the dorsal ectoderm data points, will require inverting $J^TJ$, but if there are many terms that are zero in the Jacobian (zero due to selecting data points where the model is insensitive to variations of the parameter), then $J^TJ$ will also be noninvertible (zero determinant).
-\subsection{ Analytic Jacobian }
+\subsection{Analytic Jacobian }
 A simple function is $f(z)=1/(1+\exp(-\beta z))$, where $\beta$ is a constant, where the domain and range of $z$ and $f$ are: $z \in [-\inf,\inf] \ \ f(z) \in [0,1]$.  Now if we imagine that $\beta$ was a free parameter, then we could ask how sensitive this function is to variations of $\beta$ as a function of particular positions along the domain of z.  Hence the derivative is:
 \begin{equation}
  \frac{\partial{f(\beta,z)}}{\partial{\beta}}= \frac{\beta \exp{(-\beta z)}}{(1 + \exp{(-\beta z)})} \approx  \beta f(z,\beta) (1-f(z,\beta))
@@ -657,7 +657,7 @@ The Snail protein was not used in this model, , and the Twist gradient (profile)
 
 
 
-\subsection{ Robustness analysis, Experiment 3 }
+\subsection{Robustness analysis, Experiment 3 }
 We increased the Dorsal expression by .15 in each position along the DV axis to see if the annotated binding sites were the same when using the annotation model MPA.  The data set was four NEE modules $rhomel, rhovir, vnmel, vnvir$.
 
 
@@ -684,3 +684,4 @@ The results of annotation with the wild-type Dorsal expression (no perturbation 
   \caption{Here the target gene is denoted in the left column, where, where the second column contains d+ to denote an in increase (+) in the Dorsal (d) gradient along the DV axis, and the cell along the DV axis used for extracting concentrations for the annotation model MAP is denoted in the third column.  Twist site's are annotated green, Dorsal blue, Snail red, and brown denotes overlaps. }\label{annc}
 \end{figure}
 
+\input{alonRobust}

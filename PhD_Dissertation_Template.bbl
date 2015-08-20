@@ -21,6 +21,12 @@ Bruce Alberts.
 \newblock {\em Molecular biology of the cell}.
 \newblock Garland Science, New York, 4th; 4. edition, 2002.
 
+\bibitem{designp}
+Uri Alon.
+\newblock An introduction to systems biology: Design principles of biological
+  circuits.
+\newblock {\em Chapman Hall CRC}, 2006.
+
 \bibitem{pmid9169833}
 M.~I. Arnone and E.~H. Davidson.
 \newblock {{T}he hardwiring of development: organization and function of
@@ -86,10 +92,21 @@ O.~G. Berg, R.~B. Winter, and P.~H. von Hippel.
 \newblock {\em {Proceedings of the National Academy of Sciences}},
   {89}({16}):{7501--7505}, {1992}.
 
+\bibitem{pmid17298180}
+S.~Bergmann, O.~Sandler, H.~Sberro, S.~Shnider, E.~Schejter, B.~Z. Shilo, and
+  N.~Barkai.
+\newblock {{P}re-steady-state decoding of the {B}icoid morphogen gradient}.
+\newblock {\em PLoS Biol.}, 5:e46, Feb 2007.
+
 \bibitem{bialek}
 W.~Bialek.
 \newblock {\em Biophysics Searching for Principles}.
 \newblock Princeton University Press, 2012.
+
+\bibitem{Response}
+William Bialek, Thomas Gregor, David~W. Tank, and Eric~F. Wieschaus.
+\newblock Response: Can we fit all of the data?
+\newblock {\em Cell}, 132:17 -- 18, 2007.
 
 \bibitem{bishop}
 Bishop.
@@ -199,6 +216,12 @@ R.~C. Edgar.
   and high throughput}.
 \newblock {\em Nucleic Acids Res.}, 32(5):1792--1797, 2004.
 
+\bibitem{pmid12239569}
+A.~Eldar, R.~Dorfman, D.~Weiss, H.~Ashe, B.~Z. Shilo, and N.~Barkai.
+\newblock {{R}obustness of the {B}{M}{P} morphogen gradient in {D}rosophila
+  embryonic patterning}.
+\newblock {\em Nature}, 419(6904):304--308, Sep 2002.
+
 \bibitem{pmid15026577}
 A.~Erives and M.~Levine.
 \newblock {{C}oordinate enhancers share common organizational features in the
@@ -235,6 +258,11 @@ N.~Galtier, M.~Gouy, and C.~Gautier.
   tools for sequence alignment and molecular phylogeny}.
 \newblock {\em Comput. Appl. Biosci.}, 12(6):543--548, Dec 1996.
 
+\bibitem{pmid10461206}
+W.~J. Gehring and K.~Ikeo.
+\newblock {{P}ax 6: mastering eye morphogenesis and eye evolution}.
+\newblock {\em Trends Genet.}, 15(9):371--377, Sep 1999.
+
 \bibitem{Gehring1998}
 Walter~J. Gehring.
 \newblock {\em Master Control Genes in Development and Evolution: The Homeobox
@@ -257,6 +285,18 @@ Scott~F. Gilbert and David Epel.
 \newblock {\em Ecological developmental biology: integrating epigenetics,
   medicine, and evolution}.
 \newblock Sinauer Associates, Sunderland, Mass, 2009.
+
+\bibitem{pmid16352710}
+T.~Gregor, W.~Bialek, R.~R. de~Ruyter~van Steveninck, D.~W. Tank, and E.~F.
+  Wieschaus.
+\newblock {{D}iffusion and scaling during early embryonic pattern formation}.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 102:18403--18407, Dec 2005.
+
+\bibitem{pmid18328473}
+T.~Gregor, A.~P. McGregor, and E.~F. Wieschaus.
+\newblock {{S}hape and function of the {B}icoid morphogen gradient in dipteran
+  species with different sized embryos}.
+\newblock {\em Dev. Biol.}, 316:350--358, Apr 2008.
 
 \bibitem{pmid17632062}
 T.~Gregor, D.~W. Tank, E.~F. Wieschaus, and W.~Bialek.
@@ -320,6 +360,12 @@ Joung-Woo Hong, David~A. Hendrix, Dmitri Papatsenko, and Michael~S. Levine.
 \newblock How the dorsal gradient works: Insights from postgenome technologies.
 \newblock {\em Proceedings of the National Academy of Sciences},
   105(51):20072--20076, 2008.
+
+\bibitem{pmid11845210}
+B.~Houchmandzadeh, E.~Wieschaus, and S.~Leibler.
+\newblock {{E}stablishment of developmental precision and proportions in the
+  early {D}rosophila embryo}.
+\newblock {\em Nature}, 415:798--802, Feb 2002.
 
 \bibitem{pmid1325394}
 Y.~T. Ip, R.~E. Park, D.~Kosman, E.~Bier, and M.~Levine.
@@ -453,6 +499,13 @@ S.~H. Meijsing, M.~A. Pufall, A.~Y. So, D.~L. Bates, L.~Chen, and K.~R.
   structure and activity}.
 \newblock {\em Science}, 324(5925):407--410, Apr 2009.
 
+\bibitem{kreitman}
+C.~M. Miles, S.~E. Lott, C.~L.~Ludwig Luengo~Hendriks, M.~Z. Manu., C.~L.
+  Williams, and M.~Kreitman.
+\newblock Artificial selection on egg size perturbs early pattern formation in
+  drosophila melanogaster.
+\newblock {\em Evolution}, 65:33\9642, 2011.
+
 \bibitem{Moses04phylogeneticmotif}
 A.~M. Moses and M.~B. Eisen.
 \newblock Phylogenetic motif detection by expectation-maximization on
@@ -529,6 +582,12 @@ William~H. Press, Brian~P. Flannery, Saul~A. Teukolsky, and William~T.
   Vetterling.
 \newblock {\em Numerical Recipes in C: The Art of Scientific Computing}.
 \newblock Cambridge University Press, 2 edition, 1992.
+
+\bibitem{pmid7914031}
+R.~Quiring, U.~Walldorf, U.~Kloter, and W.~J. Gehring.
+\newblock {{H}omology of the eyeless gene of {D}rosophila to the {S}mall eye
+  gene in mice and {A}niridia in humans}.
+\newblock {\em Science}, 265(5173):785--789, Aug 1994.
 
 \bibitem{perplexus}
 J.~Reinitz, S.~Hou, and D.~Sharp.
@@ -630,6 +689,11 @@ P.~H. von Hippel.
   transcriptional proteins with genome dna.
 \newblock In R.F.Goldberger, editor, {\em Biological Regulation and
   Development}, volume~1, pages 279--347. Plenum Publishing, New York, 1979.
+
+\bibitem{pmid20066104}
+O.~Wartlick, A.~Kicheva, and M.~Gonzalez-Gaitan.
+\newblock {{M}orphogen gradient formation}.
+\newblock {\em Cold Spring Harb Perspect Biol}, 1(3):a001255, Sep 2009.
 
 \bibitem{pmid7579526}
 L.~Wolpert.
