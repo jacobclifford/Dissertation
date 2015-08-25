@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.14)  24 AUG 2015 10:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.14)  25 AUG 2015 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,16 +519,21 @@ e
 
 
 
-] (./PhD_Dissertation_Template.lof [8
+] (./PhD_Dissertation_Template.lof
+Overfull \hbox (28.57039pt too wide) in paragraph at lines 2--2
+ \OT1/cmr/m/n/12 derm tis-sue of early de-vel-op-ment de-signed us-ing Strathop
+o-lis' template[[]] 
+ []
+
+[8
 
 
 
-]
-[9] [10])
+] [9] [10] [11])
 \tf@lof=\write5
 \openout5 = `PhD_Dissertation_Template.lof'.
 
- [11] [12] (./phasespace.tex
+ [12] (./phasespace.tex
 Chapter 1.
 [1
 
@@ -541,32 +546,37 @@ Chapter 1.
 <slide2jacob.png, id=223, 1028.84375pt x 757.83125pt>
 File: slide2jacob.png Graphic file (type png)
  <use slide2jacob.png>
-Package pdftex.def Info: slide2jacob.png used on input line 122.
+Package pdftex.def Info: slide2jacob.png used on input line 121.
 (pdftex.def)             Requested size: 469.75502pt x 346.01637pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-[55] [56 <./slide2jacob.png>] [57] [58] [59] [60]) (./CliffordAdami.tex
-[61]
-Chapter 2.
-[62
+[55] [56 <./slide2jacob.png>]
+Overfull \hbox (24.74957pt too wide) in paragraph at lines 131--132
+\OT1/cmr/m/n/12 te-brate de-vel-op-ment, the tar-gets of Dor-sal tran-scrip-tio
+n fac-tor are found ac-tive in vertebrates[[]].
+ []
 
-] [63] [64] [65] [66]
+[57] [58] [59] [60] [61]) (./CliffordAdami.tex [62]
+Chapter 2.
+[63
+
+] [64] [65] [66] [67]
 Overfull \hbox (10.00615pt too wide) in paragraph at lines 58--58
 []\OT1/cmr/bx/n/14.4 Relation be-tween bio-phys-i-cal PWMs and evo-lu-tion-ary 
 PWMs 
  []
 
-[67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81]
-[82] [83] <plotcayatg.pdf, id=318, 401.44664pt x 154.62418pt>
+[68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82]
+[83] [84] <plotcayatg.pdf, id=321, 401.44664pt x 154.62418pt>
 File: plotcayatg.pdf Graphic file (type pdf)
 
 <use plotcayatg.pdf>
 Package pdftex.def Info: plotcayatg.pdf used on input line 214.
 (pdftex.def)             Requested size: 433.62pt x 167.01756pt.
- [84 <./plotcayatg.pdf>]
+ [85 <./plotcayatg.pdf>]
 
 LaTeX Warning: File `rsCAYATG30.eps' not found on input line 228.
 
@@ -578,60 +588,50 @@ Package epstopdf Info: Source file: <rsCAYATG30.eps>
 o.pdf rsCAYATG30.eps>
 (epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
-<rsCAYATG30-eps-converted-to.pdf, id=329, 518.93875pt x 416.55624pt>
+<rsCAYATG30-eps-converted-to.pdf, id=333, 518.93875pt x 416.55624pt>
 File: rsCAYATG30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use rsCAYATG30-eps-converted-to.pdf>
 Package pdftex.def Info: rsCAYATG30-eps-converted-to.pdf used on input line 228
 .
-(pdftex.def)             Requested size: 518.93748pt x 416.55522pt.
-
-Overfull \hbox (49.18246pt too wide) in paragraph at lines 228--230
-[][] 
- []
-
+(pdftex.def)             Requested size: 433.62pt x 348.087pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 228--230
 
  []
 
-[85] [86 <./rsCAYATG30-eps-converted-to.pdf>] [87] [88]
-<infopair.pdf, id=347, 544.0325pt x 234.8775pt>
+[86] [87 <./rsCAYATG30-eps-converted-to.pdf>] [88] [89]
+<infopair.pdf, id=350, 544.0325pt x 234.8775pt>
 File: infopair.pdf Graphic file (type pdf)
  <use infopair.pdf>
 Package pdftex.def Info: infopair.pdf used on input line 274.
 (pdftex.def)             Requested size: 433.62pt x 187.21771pt.
- [89]
-[90 <./infopair.pdf>] [91]
-<miclasses-new.pdf, id=406, 503.8825pt x 436.63126pt>
+ [90]
+[91 <./infopair.pdf>] [92]
+<miclasses-new.pdf, id=409, 503.8825pt x 436.63126pt>
 File: miclasses-new.pdf Graphic file (type pdf)
  <use miclasses-new.pdf>
 Package pdftex.def Info: miclasses-new.pdf used on input line 313.
-(pdftex.def)             Requested size: 503.88127pt x 436.63019pt.
-
-Overfull \hbox (34.12625pt too wide) in paragraph at lines 313--315
-[][] 
- []
-
+(pdftex.def)             Requested size: 433.62pt x 375.74873pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 313--315
 
  []
 
-[92] [93 <./miclasses-new.pdf>] [94] [95] [96] [97] [98] [99] [100] [101]
-[102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112]
+[93] [94 <./miclasses-new.pdf>] [95] [96] [97] [98] [99] [100] [101] [102]
+[103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 439.
 
-[113] [114] [115]
+[114] [115] [116]
 Overfull \hbox (11.06232pt too wide) in paragraph at lines 453--454
 \OT1/cmr/m/n/12 the on-line MUS-CLE doc-u-men-ta-tion at http://www.drive5.com/
 muscle/manual/accurate.html:
  []
 
-[116] [117] [118] [119] [120] [121] [122] [123] [124] [125]
+[117] [118] [119] [120] [121] [122] [123] [124] [125]
 
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 513.
 
@@ -668,21 +668,21 @@ LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 514.
 LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 514.
 
 
-[126] [127] [128] [129] [130] [131] [132] [133]
+[126] [127] [128] [129] [130] [131] [132] [133] [134]
 Overfull \hbox (3.14565pt too wide) in paragraph at lines 630--631
 \OT1/cmr/m/n/12 We re-peated our anal-y-sis of the known Dor-sal sites with a d
 if-fer-ent Twist mo-tif (5'-CACATG).
  []
 
-[134] <plotCACATG302015.pdf, id=589, 402.7848pt x 155.1396pt>
+<plotCACATG302015.pdf, id=589, 402.7848pt x 155.1396pt>
 File: plotCACATG302015.pdf Graphic file (type pdf)
 
 <use plotCACATG302015.pdf>
 Package pdftex.def Info: plotCACATG302015.pdf used on input line 633.
 (pdftex.def)             Requested size: 433.62pt x 167.01563pt.
- [135 <./plotCACATG302015.pdf>] [136]
+ [135] [136 <./plotCACATG302015.pdf>]
 
-LaTeX Warning: File `rocenhaCACATG30.eps' not found on input line 657.
+LaTeX Warning: File `rocenhaCACATG30.eps' not found on input line 659.
 
 Package epstopdf Info: Source file: <rocenhaCACATG30.eps>
 (epstopdf)             Output file: <rocenhaCACATG30-eps-converted-to.pdf>
@@ -690,18 +690,18 @@ Package epstopdf Info: Source file: <rocenhaCACATG30.eps>
 (epstopdf)                    size: 6031 bytes
 (epstopdf)             Command: <repstopdf --outfile=rocenhaCACATG30-eps-conver
 ted-to.pdf rocenhaCACATG30.eps>
-(epstopdf)             \includegraphics on input line 657.
+(epstopdf)             \includegraphics on input line 659.
 Package epstopdf Info: Output file is already uptodate.
 <rocenhaCACATG30-eps-converted-to.pdf, id=603, 513.92pt x 403.5075pt>
 File: rocenhaCACATG30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use rocenhaCACATG30-eps-converted-to.pdf>
 Package pdftex.def Info: rocenhaCACATG30-eps-converted-to.pdf used on input lin
-e 657.
+e 659.
 (pdftex.def)             Requested size: 361.34999pt x 283.72166pt.
  [137 <./rocenhaCACATG30-eps-converted-to.pdf>]
 
-LaTeX Warning: File `miclassesCACATG30.eps' not found on input line 667.
+LaTeX Warning: File `miclassesCACATG30.eps' not found on input line 669.
 
 Package epstopdf Info: Source file: <miclassesCACATG30.eps>
 (epstopdf)             Output file: <miclassesCACATG30-eps-converted-to.pdf>
@@ -709,18 +709,18 @@ Package epstopdf Info: Source file: <miclassesCACATG30.eps>
 (epstopdf)                    size: 8726 bytes
 (epstopdf)             Command: <repstopdf --outfile=miclassesCACATG30-eps-conv
 erted-to.pdf miclassesCACATG30.eps>
-(epstopdf)             \includegraphics on input line 667.
+(epstopdf)             \includegraphics on input line 669.
 Package epstopdf Info: Output file is already uptodate.
 <miclassesCACATG30-eps-converted-to.pdf, id=612, 506.89375pt x 400.49625pt>
 File: miclassesCACATG30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use miclassesCACATG30-eps-converted-to.pdf>
 Package pdftex.def Info: miclassesCACATG30-eps-converted-to.pdf used on input l
-ine 667.
+ine 669.
 (pdftex.def)             Requested size: 361.34999pt x 285.50932pt.
  [138 <./miclassesCACATG30-eps-converted-to.pdf>]
 
-LaTeX Warning: File `rsCACATG30.eps' not found on input line 676.
+LaTeX Warning: File `rsCACATG30.eps' not found on input line 678.
 
 Package epstopdf Info: Source file: <rsCACATG30.eps>
 (epstopdf)             Output file: <rsCACATG30-eps-converted-to.pdf>
@@ -728,17 +728,17 @@ Package epstopdf Info: Source file: <rsCACATG30.eps>
 (epstopdf)                    size: 11830 bytes
 (epstopdf)             Command: <repstopdf --outfile=rsCACATG30-eps-converted-t
 o.pdf rsCACATG30.eps>
-(epstopdf)             \includegraphics on input line 676.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
 <rsCACATG30-eps-converted-to.pdf, id=625, 517.935pt x 415.5525pt>
 File: rsCACATG30-eps-converted-to.pdf Graphic file (type pdf)
 
 <use rsCACATG30-eps-converted-to.pdf>
-Package pdftex.def Info: rsCACATG30-eps-converted-to.pdf used on input line 676
+Package pdftex.def Info: rsCACATG30-eps-converted-to.pdf used on input line 678
 .
 (pdftex.def)             Requested size: 361.34999pt x 289.93364pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--677
+Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
@@ -751,7 +751,7 @@ Package epstopdf Info: Source file: <entropyN100.eps>
 (epstopdf)                    size: 6904 bytes
 (epstopdf)             Command: <repstopdf --outfile=entropyN100-eps-converted-
 to.pdf entropyN100.eps>
-(epstopdf)             \includegraphics on input line 707.
+(epstopdf)             \includegraphics on input line 709.
 Package epstopdf Info: Output file is already uptodate.
 
 <entropyN100-eps-converted-to.pdf, id=639, 410.53375pt x 309.155pt>
@@ -759,11 +759,11 @@ File: entropyN100-eps-converted-to.pdf Graphic file (type pdf)
 
 <use entropyN100-eps-converted-to.pdf>
 Package pdftex.def Info: entropyN100-eps-converted-to.pdf used on input line 70
-7.
+9.
 (pdftex.def)             Requested size: 361.34999pt x 272.11383pt.
  [141] [142 <./entropyN100-eps-converted-to.pdf>] [143] [144] [145]
 
-LaTeX Warning: File `EntropyBiasCB_L9.eps' not found on input line 741.
+LaTeX Warning: File `EntropyBiasCB_L9.eps' not found on input line 743.
 
 Package epstopdf Info: Source file: <EntropyBiasCB_L9.eps>
 (epstopdf)             Output file: <EntropyBiasCB_L9-eps-converted-to.pdf>
@@ -771,14 +771,14 @@ Package epstopdf Info: Source file: <EntropyBiasCB_L9.eps>
 (epstopdf)                    size: 11878 bytes
 (epstopdf)             Command: <repstopdf --outfile=EntropyBiasCB_L9-eps-conve
 rted-to.pdf EntropyBiasCB_L9.eps>
-(epstopdf)             \includegraphics on input line 741.
+(epstopdf)             \includegraphics on input line 743.
 Package epstopdf Info: Output file is already uptodate.
 <EntropyBiasCB_L9-eps-converted-to.pdf, id=662, 410.53375pt x 309.155pt>
 File: EntropyBiasCB_L9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use EntropyBiasCB_L9-eps-converted-to.pdf>
 Package pdftex.def Info: EntropyBiasCB_L9-eps-converted-to.pdf used on input li
-ne 741.
+ne 743.
 (pdftex.def)             Requested size: 361.34999pt x 272.11383pt.
 ) (./Chapter3occupancy.tex [146]
 [147 <./EntropyBiasCB_L9-eps-converted-to.pdf>]
@@ -921,37 +921,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--65
 
  []
 
-[215 <./sourcegraph.png>] [216] [217] [218] [219] [220] [221]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+[215 <./sourcegraph.png>] [216]
+Package epstopdf Info: Source file: <dorsaltopvar.eps>
+(epstopdf)                    date: 2015-08-25 15:54:31
+(epstopdf)                    size: 902870 bytes
+(epstopdf)             Output file: <dorsaltopvar-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-08-25 15:54:44
+(epstopdf)                    size: 126956 bytes
+(epstopdf)             Command: <repstopdf --outfile=dorsaltopvar-eps-converted
+-to.pdf dorsaltopvar.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
 
- []
+<dorsaltopvar-eps-converted-to.pdf, id=944, 361.35pt x 513.92pt>
+File: dorsaltopvar-eps-converted-to.pdf Graphic file (type pdf)
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
-
- []
-
-[222]
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-[223])) [224]) [225] [226]
-Overfull \hbox (20.67183pt too wide) in paragraph at lines 160--161
-\OT1/cmr/m/n/12 com-po-nents of the model can be found at https://github.com/ja
-cobclifford/ConservedOccupancy
- []
-
-[227] (./PhD_Dissertation_Template.bbl [228] [229
+<use dorsaltopvar-eps-converted-to.pdf>
+Package pdftex.def Info: dorsaltopvar-eps-converted-to.pdf used on input line 8
+9.
+(pdftex.def)             Requested size: 361.34912pt x 513.91873pt.
+ [217] [218 <./dorsaltopvar-eps-converted-to.pdf>] [219] [220] [221] [222] [223
+] [224] [225]))) [226] [227] [228]
+[229] (./PhD_Dissertation_Template.bbl [230] [231
 
 ]
 Missing character: There is no ä in font cmr12!
- [230
+ [232
 
-] [231] [232] [233]
-[234] [235] [236]
+] [233] [234] [235]
+[236] [237] [238]
+Missing character: There is no ü in font cmr12!
+Missing character: There is no ü in font cmr12!
+
 ! Undefined control sequence.
-l.513 \newblock {\em Evolution}, 65:33\9
+l.543 \newblock {\em Evolution}, 65:33\9
                                         642, 2011.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -959,7 +962,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[237] [238] [239]) [240] (./PhD_Dissertation_Template.aux)
+[239] [240] [241]) [242] (./PhD_Dissertation_Template.aux)
 \snap@out=\write6
 \openout6 = `PhD_Dissertation_Template.dep'.
 
@@ -970,10 +973,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6945 strings out of 494985
- 104215 string characters out of 6180356
- 180026 words of memory out of 5000000
- 9973 multiletter control sequences out of 15000+600000
+ 6959 strings out of 494985
+ 104477 string characters out of 6180356
+ 180197 words of memory out of 5000000
+ 9986 multiletter control sequences out of 15000+600000
  12744 words of font info for 44 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  51i,27n,44p,4262b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -990,10 +993,10 @@ msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on PhD_Dissertation_Template.pdf (252 pages, 2825451 bytes).
+Output written on PhD_Dissertation_Template.pdf (254 pages, 2947948 bytes).
 PDF statistics:
- 1069 PDF objects out of 1200 (max. 8388607)
- 727 compressed objects within 8 object streams
+ 1081 PDF objects out of 1200 (max. 8388607)
+ 735 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

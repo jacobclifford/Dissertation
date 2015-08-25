@@ -225,7 +225,7 @@ It is possible that any random partitioning of a set of binding sites that are u
  To calibrate the p-value we created a sampling distribution of the p-value from 1000 repetitions, where at each repetition the combined data $\mathcal D_{\textbf{CB}}$ were randomly partitioned into two data sets.  PWMs were constructed for each partition.  The energy of each sequence within a partition was calculated as $E(S)+w(S,P)$, where $P$ is the partition, $S$ is a sequence in the partition, and $E(S)$ is the CB energy.  We then determined the corresponding rank sum p-value between the random sets. We found that the p-value of the rank sum test between the DC and DU model fell  well beyond the right tail of the random sampling distribution (shown in \Fref{b}), indicating that the median energies of DC data set and the DU data set are significantly different from {\em any} random partitioning of the combined data set. More details are in the Supplement section \ref{ranks}. %section number [CA]
 %Fig. 2
 \begin{figure}
-  \includegraphics[]{rsCAYATG30.eps}\\
+  \includegraphics[width=6in]{rsCAYATG30.eps}\\
   \caption {Histogram of p-values of a rank sum test of random partitions of the combined data set $\mathcal D_{\textbf{CB}}$.  The binning is in units  $-10\times \log_{10} $ of the p-value, rounded to the nearest integer. The p-value of the rank sum test between DC and DU energy data sets based on their energy PWMs was 260 in log base ten units (scaled by 10), which is indicated by the red bar of arbitrary height.   
    }\label{b}
 \end{figure}
@@ -310,7 +310,7 @@ The conditional detectors are expected to make predictions not only about what i
 For a given energy threshold we scanned the combined data set $D_{\textbf{CB}}$ with the DC as well as the DU detector, and asked how much the detector knows about the class variable $\mathcal C$ (further details of this experiment are in Supplement section \ref{misup}).  We show this mutual information $I(\mathcal C;\mathcal P)$ in \Fref{MiSP} , where $\mathcal P$ is the binary random variable encoding the detector's decision about the context. 
 \begin{figure}
   %Fig. 4
-  \includegraphics[]{miclasses-new.pdf}\\
+  \includegraphics[width=6in]{miclasses-new.pdf}\\
   \caption{Mutual information $I(\mathcal C;\mathcal P)$ between the actual classes $\mathcal C$ and the predicted classes $\mathcal P$ for Detectors DC and DU as a function of the threshold energy $E_c$ that is defined by each detector's conditional energy \Eref{cepwm}.
     \label{MiSP}}
 \end{figure}
@@ -636,15 +636,17 @@ We repeated our analysis of the known Dorsal sites with a different Twist motif 
 
 \par
 
-
+\begin{table}[h]
+\centering
   \begin{tabular}[b]{|c|c|c|c|}
 \hline
 spacer   &  [0,30]bp & (31,60]bp &(61,90]bp  \\ \hline
 \multirow{2}{*}{}  Mutual Information \Eref{mi}&  0.38 & 0.28 & 0.04  \\
  Logodds ratio test -log(p value)& 4.8 & 0.17 & 0.66 \\
 \hline
-\end{tabular}\label{tablesuple}
-
+\end{tabular}
+\caption{Mutual Information and Logodds ratio test for all known Dorsal sites with the Twist motif 5'-CACATG based on the spacer windows denoted by the columns of the table.}\label{tablesuple}
+\end{table}
 \par
 
 The  table \ref{tablesuple} second row corresponds to the log odds ratio test based on CB's specificity set at $10^{-4}$, which corresponds to a CB energy of 2.5, as in the main text.  The DC detector did show better performance for this spacer window and corresponding energy cutoff.  We additionally ananlyzed the mutual information for the case that 5'-CACATGT was used as a motif for Twist, which would correspond to a subset of the sites found for 5'-CACATG.  For the 5'-CACATGT motif we found the mutual information was 0.3, 0.17, 0.0 for the three possible cases of the sliding window.
@@ -677,7 +679,7 @@ The median energy of DC was 0.4, and the median energy of DU was 2.9.  The plot 
   \caption{ Histogram of p-values of random partitions of the combined data set $\mathcal D_{\textbf{CB}}$, where the histogram bins were in units of 10*log(p value).  The p-value of the ranksum test for DC and DU median energies was about 205 in the scaled log units, which is the bar at the far left of the sampling distribution. }
 \end{figure}\label{bb}
 \newpage
-\subsection*{Propagation of error for estimating error in Entropy estimates }
+\subsection{Propagation of error for estimating error in Entropy estimates }
 Initially we conflated our notation of the frequency of events $i$ from an alignment with the theoretical probability of the event $i$.  Here we must distinguish these two ideas.  Let the frequency of the event $i$ (for example the occurrence of the symbol or nucleotide 'A') be $f_i$, and the probability be $p_i$ (previously denoted as $P(B_i)$, which we will abandon since it is too cumbersome here).  What is the standard deviation of an entropy estimate?  One way to estimate this is resampling (bootstrap).  Another, much simpler technique is to treat the entropy as a function of a variable, and then simply see how much a variation of the variable (of some specified size) causes variation in the function.  Here the idea is to treat the input variation as "error" and see how much this affects the output.  
 Here "error" means uncertainty which is reliably estimated as the statistical standard deviation of the variable (if this is known), or can be estimated by any justifiable means (e.g. the error in a measuring device, is reasonably estimated by the resolution of the device, which is the distance between tick marks on a ruler).  
 
@@ -707,13 +709,13 @@ Now the propagated error to the entropy is:
 \includegraphics[width=5in]{entropyN100}
 \caption{The estimate of the error, $dh(f_i) = \sigma_{h(f_i)}$ is plotted on the vertical axis, when the number of counts of event i occur at their expected value, where the horizontal axis is the expected number of counts observed for event i, $< n_i >= p N$.  }
 \end{figure}\label{entropyerr}
-\subsection*{Determining if differences in Information are significant}
+\subsection{Determining if differences in Information are significant}
 
 From figure \ref{entropyerr} we see that we need, in the worst case scenario, about 4 decibits (about 4*.1 bits, which was the maximum value in the graph) of information content to biologically distinguish two alignments each of 100 binding sites of DNA (i.e. in order to distinguish two columns of a PWM).  However, the standard error of the entropy requires dividing the estimated variance by N, in which case, two alignments are statistically resolvable ('significantly different') if they are different by .4 centibits, which may or may not be biologically significant.  What is biologically significant?  For example, can natural selection resolve binding sites that have differences in information scores of .4 centibits?  Depends on the selection pressure, and how big it is.  Certainly selection can resolve .4 centibits, given drift doesn't cause the variation in the population to disappear.  What is physically different?  For example, can Dorsal protein resolve binding sites that are different by .4 centibits?  Well, given that Dorsal can sample binding sites, then given $2^{H(P(S))}$ binding events, we would expect a Dorsal to correctly identify a binding site relative to the background of the genome (where $P(S)$) is the PWM probability).  So in a statistical sense, yes it seems to be physically significant, since .4 centibits can reduce the amount of sampling required.  In fact, any information that Dorsal has about its binding site sequences is physically significant due to this idea\footnote{This doesn't mean all binding site sequences with information scores greater than zero are functional (adaptations) in Eukaryotes, as Schneider found for prokaryotes\cite{pmid3525846}.}  
 
 %It means that Dorsal protein, using a PWM detector, has information about the symbolic content (its base-pair preferences) of the functional sequences (e.g. the few bindings site loci's sequences that Dorsal targets).}.   
 
-\subsection*{Entropy bias from Maximum Likelihood estimation}
+\subsection{Entropy bias from Maximum Likelihood estimation}
 The estimate of the error (standard deviation\footnote{this is not a 'standard error'}) in the entropy in the above section was based on estimates of the frequencies $f$.  The estimates of the frequencies were based on Maximum Likelihood  Principle, which is unbiased for frequency estimates.  
 
 Functions of known unbiased estimates (such as the frequencies) are not necessarily unbiased (such as the entropy).  It is known that the entropy estimate is biased if one uses ML estimates for their frequencies.  To see this we can Taylor expand the above estimator $H(f)$ about the expected value of $f$, which is $p$ (there's no bias in the expected value of $f$).  Using the same notation as Bialek (see page 547\cite{bialek}, we will first add and subtract the expected frequencies from each factor:

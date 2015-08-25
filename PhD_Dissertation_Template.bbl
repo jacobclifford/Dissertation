@@ -44,6 +44,12 @@ P.~Atkins and J~de~Paula.
 \newblock {\em Physical Chemistry}.
 \newblock W.H. Freeman and Company, 2002.
 
+\bibitem{pmid18687054}
+A.~Ay, W.~D. Fakhouri, C.~Chiu, and D.~N. Arnosti.
+\newblock {{I}mage processing and analysis for quantifying gene expression from
+  early {D}rosophila embryos}.
+\newblock {\em Tissue Eng Part A}, 14:1517--1526, Sep 2008.
+
 \bibitem{pmid7584402}
 T.~L. Bailey and C.~Elkan.
 \newblock {{F}itting a mixture model by expectation maximization to discover
@@ -177,6 +183,11 @@ J.~Crocker, Y.~Tamori, and A.~Erives.
   threshold readouts}.
 \newblock {\em PLoS Biol.}, 6:e263, Nov 2008.
 
+\bibitem{darwin}
+Charles Darwin.
+\newblock {\em On the Origin of Species}.
+\newblock Open Road Media, Newburyport, 2014.
+
 \bibitem{pmid19104053}
 E.~H. Davidson and M.~S. Levine.
 \newblock {{P}roperties of developmental gene regulatory networks}.
@@ -250,6 +261,11 @@ D.~S. Fields and G.~D. Stormo.
 \newblock {{Q}uantitative {D}{N}{A} sequencing to determine the relative
   protein-{D}{N}{A} binding constants to multiple {D}{N}{A} sequences}.
 \newblock {\em Anal. Biochem.}, 219(2):230--239, Jun 1994.
+
+\bibitem{pmid13054694}
+R.~E. FRANKLIN and R.~G. GOSLING.
+\newblock {{M}olecular configuration in sodium thymonucleate}.
+\newblock {\em Nature}, 171(4356):740--741, Apr 1953.
 
 \bibitem{Gallo21102010}
 Steven~M. Gallo, Dave~T. Gerrard, David Miner, Michael Simich, Benjamin
@@ -474,6 +490,15 @@ X.~Liu, D.L. Brutlag, J.S. Liu, et~al.
   regulatory regions of co-expressed genes.
 \newblock In {\em Pac Symp Biocomput}, volume~6, pages 127--138, 2001.
 
+\bibitem{pmid19627575}
+S.~MacArthur, X.~Y. Li, J.~Li, J.~B. Brown, H.~C. Chu, L.~Zeng, B.~P. Grondona,
+  A.~Hechmer, L.~Simirenko, S.~V. Keranen, D.~W. Knowles, M.~Stapleton,
+  P.~Bickel, M.~D. Biggin, and M.~B. Eisen.
+\newblock {{D}evelopmental roles of 21 {D}rosophila transcription factors are
+  determined by quantitative differences in binding to an overlapping set of
+  thousands of genomic regions}.
+\newblock {\em Genome Biol.}, 10(7):R80, 2009.
+
 \bibitem{pmid17478497}
 S.~Mahony and P.~V. Benos.
 \newblock {{S}{T}{A}{M}{P}: a web tool for exploring {D}{N}{A}-binding motif
@@ -504,6 +529,11 @@ S.~H. Meijsing, M.~A. Pufall, A.~Y. So, D.~L. Bates, L.~Chen, and K.~R.
 \newblock {{D}{N}{A} binding site sequence directs glucocorticoid receptor
   structure and activity}.
 \newblock {\em Science}, 324(5925):407--410, Apr 2009.
+
+\bibitem{mendel}
+G.~Mendel.
+\newblock Versuche über pflanzenhybriden.
+\newblock Verhandlungen des naturforschenden Vereines in Brünn:3--47, 1865.
 
 \bibitem{kreitman}
 C.~M. Miles, S.~E. Lott, C.~L.~Ludwig Luengo~Hendriks, M.~Z. Manu., C.~L.
@@ -684,6 +714,11 @@ P.~Szymanski and M.~Levine.
   {D}rosophila embryo}.
 \newblock {\em EMBO J.}, 14:2229--2238, May 1995.
 
+\bibitem{pmid14756329}
+U.~Technau and C.~B. Scholz.
+\newblock {{O}rigin and evolution of endoderm and mesoderm}.
+\newblock {\em Int. J. Dev. Biol.}, 47(7-8):531--539, 2003.
+
 \bibitem{vankampen}
 N.~Van~Kampen.
 \newblock {\em Stochastic Processes in Physics and Chemistry}.
@@ -700,6 +735,12 @@ P.~H. von Hippel.
 O.~Wartlick, A.~Kicheva, and M.~Gonzalez-Gaitan.
 \newblock {{M}orphogen gradient formation}.
 \newblock {\em Cold Spring Harb Perspect Biol}, 1(3):a001255, Sep 2009.
+
+\bibitem{pmid13054692}
+J.~D. WATSON and F.~H. CRICK.
+\newblock {{M}olecular structure of nucleic acids; a structure for deoxyribose
+  nucleic acid}.
+\newblock {\em Nature}, 171(4356):737--738, Apr 1953.
 
 \bibitem{pmid7579526}
 L.~Wolpert.

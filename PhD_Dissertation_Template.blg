@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: PhD_Dissertation_Template.aux
 The style file: plain.bst
 Database file #1: sample.bib
-You've used 126 entries,
+Warning--empty journal in mendel
+You've used 133 entries,
             2118 wiz_defined-function locations,
-            1217 strings with 23926 characters,
-and the built_in function-call counts, 43673 in all, are:
-= -- 4311
-> -- 2143
+            1256 strings with 25108 characters,
+and the built_in function-call counts, 46256 in all, are:
+= -- 4558
+> -- 2297
 < -- 9
-+ -- 848
-- -- 717
-* -- 3466
-:= -- 7388
-add.period$ -- 381
-call.type$ -- 126
-change.case$ -- 720
++ -- 909
+- -- 771
+* -- 3683
+:= -- 7834
+add.period$ -- 402
+call.type$ -- 133
+change.case$ -- 767
 chr.to.int$ -- 0
-cite$ -- 126
-duplicate$ -- 1454
-empty$ -- 3302
-format.name$ -- 717
-if$ -- 8850
+cite$ -- 134
+duplicate$ -- 1532
+empty$ -- 3479
+format.name$ -- 771
+if$ -- 9358
 int.to.chr$ -- 0
-int.to.str$ -- 126
-missing$ -- 143
-newline$ -- 633
-num.names$ -- 255
-pop$ -- 600
+int.to.str$ -- 133
+missing$ -- 151
+newline$ -- 668
+num.names$ -- 269
+pop$ -- 641
 preamble$ -- 1
-purify$ -- 608
+purify$ -- 649
 quote$ -- 0
-skip$ -- 960
+skip$ -- 1011
 stack$ -- 0
-substring$ -- 3186
-swap$ -- 174
+substring$ -- 3352
+swap$ -- 180
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 466
-warning$ -- 0
-while$ -- 435
-width$ -- 129
-write$ -- 1390
+type$ -- 492
+warning$ -- 1
+while$ -- 460
+width$ -- 136
+write$ -- 1466
+(There was 1 warning)
