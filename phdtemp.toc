@@ -1,2 +1,0 @@
-\contentsline {chapter}{\textbf {LISggggggT OF TABLES}\vspace {10\baselineskip }}{2}
-\contentsline {chapter}{\textbf {LIST OF FIGURES}\vspace {\baselineskip }}{3}
